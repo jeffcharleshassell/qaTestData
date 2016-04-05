@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Workspace version="20.0"  modDate="Tue Mar 29 16:27:41 PDT 2016"  clientTimestamp="1459294061424"  flowJoVersion="10.1r7"  drawRowBorders="1"  drawColumnBorders="1"  curGroup="All Samples"  pluginFolder="C:\Users\Joe\Desktop\29-Mar-2016"  groupPaneHeight="80"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns:gating="http://www.isac-net.org/std/Gating-ML/v2.0/gating"  xmlns:transforms="http://www.isac-net.org/std/Gating-ML/v2.0/transformations"  xmlns:data-type="http://www.isac-net.org/std/Gating-ML/v2.0/datatypes"  xsi:schemaLocation="http://www.isac-net.org/std/Gating-ML/v2.0/gating http://www.isac-net.org/std/Gating-ML/v2.0/gating/Gating-ML.v2.0.xsd http://www.isac-net.org/std/Gating-ML/v2.0/transformations http://www.isac-net.org/std/Gating-ML/v2.0/gating/Transformations.v2.0.xsd http://www.isac-net.org/std/Gating-ML/v2.0/datatypes http://www.isac-net.org/std/Gating-ML/v2.0/gating/DataTypes.v2.0.xsd "  nonAutoSaveFileName="file:/C:/Users/Joe/Desktop/29-Mar-2016.wsp" >
+   <WindowPosition x="219"  y="34"  width="600"  height="720"  displayed="1"  panelState="" />
+   <TextTraits font="SansSerif"  size="12"  name=""  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+   <Columns>
+     <TColumn width="299" >
+       <Property key="fj.appnode.prop.name" />
+     </TColumn>
+     <TColumn width="140" >
+       <Property key="fj.appnode.prop.statistic" />
+     </TColumn>
+     <TColumn width="139" >
+       <Property key="fj.appnode.prop.ncells" />
+     </TColumn>
+   </Columns>
+   <Matrices>
+     <transforms:spilloverMatrix prefix="Comp-"  name="Acquisition-defined"  editable="0"  color="#c0c0c0"  version="FlowJo-10.1r7"  status="FINALIZED"  transforms:id="6cb28774-32fc-4ce6-b499-f28ac862567f"  suffix="" >
+       <data-type:parameters>
+         <data-type:parameter data-type:name="FITC_Alexa 488-A" />
+         <data-type:parameter data-type:name="PE-A" />
+         <data-type:parameter data-type:name="PE-Cy55-A" />
+         <data-type:parameter data-type:name="PE-Cy7-A" />
+         <data-type:parameter data-type:name="CD3 CD14 Live_Dead-A" />
+         <data-type:parameter data-type:name="APC_Ax 647-A" />
+         <data-type:parameter data-type:name="APC-Ax700-A" />
+         <data-type:parameter data-type:name="APC-H7-A" />
+       </data-type:parameters>
+       <transforms:spillover data-type:parameter="FITC_Alexa 488-A" >
+         <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.1664330065" />
+         <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0.0096068867" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.001505101" />
+         <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0.0002051889" />
+         <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="PE-A" >
+         <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0073842187" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0.1168720797" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0234806519" />
+         <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0.0000850476" />
+         <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0.0007224623" />
+         <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="0.0006267928" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0007114916" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="PE-Cy55-A" >
+         <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0002513976" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0002512699" />
+         <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.374260217" />
+         <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0.0490389057" />
+         <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="0.7652805448" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0890212804" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="PE-Cy7-A" >
+         <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0008061935" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0085444646" />
+         <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0.0029421791" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0.0860568434" />
+         <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="0.1091066226" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.1049794778" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="CD3 CD14 Live_Dead-A" >
+         <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0053691017" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0017894618" />
+         <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="APC_Ax 647-A" >
+         <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0000954564" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0.002695462" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0006188018" />
+         <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="1.0535115004" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0887667015" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="APC-Ax700-A" >
+         <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0002478313" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0001416286" />
+         <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0.002880929" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.002418088" />
+         <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0.0025690168" />
+         <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0787342042" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="APC-H7-A" >
+         <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0008340404" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0.0001235649" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0171133261" />
+         <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0.000390261" />
+         <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0.0514524654" />
+         <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="0.1793176234" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="1" />
+       </transforms:spillover>
+     </transforms:spilloverMatrix>
+   </Matrices>
+   <Cytometers>
+     <Cytometer name="DIVA"  cyt="LSRII"  useFCS3="1"  extraNegs="0"  widthBasis="-100"  linMin="0"  logMin="3"  linMax="262144"  logMax="262144"  linearRescale="1"  logRescale="1"  linFromKW="1"  logFromKW="1"  useGain="0"  useTransform="1"  transformType="BIEX"  manufacturer=""  serialnumber=""  homepage="workspaces-and-samples/flowjo-and-your-cytometer/ws-cytometer-bd/"  icon="bd.PNG" >
+       <LinParams>
+         <Param>time</Param>
+       </LinParams>
+       <LogParams>
+         <Param>SSC-A</Param>
+       </LogParams>
+       <FilterParams/>
+       <TransformStore>
+         <MatrixID matrixId="6cb28774-32fc-4ce6-b499-f28ac862567f" >
+           <Transforms>
+             <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+               <data-type:parameter data-type:name="FITC_Alexa 488-A" />
+             </transforms:biex>
+             <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+               <data-type:parameter data-type:name="FSC-H" />
+             </transforms:linear>
+             <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+               <data-type:parameter data-type:name="SSC-H" />
+             </transforms:linear>
+             <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+               <data-type:parameter data-type:name="APC-H7-A" />
+             </transforms:biex>
+             <transforms:biex transforms:length="256"  transforms:maxRange="262144.0000291775"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.418539922" >
+               <data-type:parameter data-type:name="SSC-A" />
+             </transforms:biex>
+             <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+               <data-type:parameter data-type:name="CD3 CD14 Live_Dead-A" />
+             </transforms:biex>
+             <transforms:miltenyi transforms:maxRange="2630370" >
+               <data-type:parameter data-type:name="PE-Cy55-A" />
+             </transforms:miltenyi>
+             <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+               <data-type:parameter data-type:name="SSC-W" />
+             </transforms:linear>
+             <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+               <data-type:parameter data-type:name="FSC-W" />
+             </transforms:linear>
+             <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+               <data-type:parameter data-type:name="PE-A" />
+             </transforms:biex>
+             <transforms:hyperlog transforms:length="256"  transforms:maxRange="263036.9999999999"  transforms:T="263036.9999999999"  transforms:A="0.5"  transforms:M="5.4200168427"  transforms:W="0.5" >
+               <data-type:parameter data-type:name="APC-Ax700-A" />
+             </transforms:hyperlog>
+             <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+               <data-type:parameter data-type:name="APC_Ax 647-A" />
+             </transforms:biex>
+             <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+               <data-type:parameter data-type:name="FSC-A" />
+             </transforms:linear>
+             <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+               <data-type:parameter data-type:name="PE-Cy7-A" />
+             </transforms:biex>
+           </Transforms>
+         </MatrixID>
+       </TransformStore>
+     </Cytometer>
+   </Cytometers>
+   <Groups>
+     <GroupNode name="All Samples"  annotation=""  owningGroup="All Samples"  expanded="1"  sortPriority="10"  count="-1" >
+       <Graph smoothing="0"  backColor="#ffffff"  foreColor="#000000"  type="Pseudocolor"  fast="1" >
+         <Axis dimension="x"  name=""  label=""  auto="auto" />
+         <Axis dimension="y"  name=""  label=""  auto="auto" />
+         <GraphSettings level="5%"  smoothingHighResolution="1"  contourHighResolution="1"  histogramSmoothingCount="0"  graphResolution="256"  showOutliers="0"  drawLargeDots="0"  dotsToDraw="8000"  tint="le.chartfill.tinted.40"  lineWeight="le.lineweight.normal"  lineStyle="le.linestyle.solid" />
+         <GraphEnvironment showGrid="0"  showAxes="tnlTNL"  showGates="1"  showFreqOnPlots="1"  showGateNameOnPlots="1"  showMedians="0"  showUncomped="0"  addEventParam="0"  lastYAxisName="" >
+           <TextTraits font="SansSerif"  size="11"  name="Labels"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           <TextTraits font="SansSerif"  size="11"  name="LayoutGates"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           <TextTraits font="SansSerif"  size="9"  name="Numbers"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           <TextTraits font="SansSerif"  size="9"  name="Legend"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+         </GraphEnvironment>
+       </Graph>
+       <Group name="All Samples"  live="1"  role="ws.group.dlog.test"  key=""  synchronized="0"  foreground="#000000"  fontStyle="bold" >
+         <Criteria/>
+         <SampleRefs>
+           <SampleRef sampleID="1" />
+         </SampleRefs>
+         <Keywords/>
+       </Group>
+     </GroupNode>
+     <GroupNode name="Compensation"  annotation=""  owningGroup="Compensation"  expanded="1"  sortPriority="10"  count="-1" >
+       <Graph smoothing="0"  backColor="#ffffff"  foreColor="#000000"  type="Pseudocolor"  fast="1" >
+         <Axis dimension="x"  name=""  label=""  auto="auto" />
+         <Axis dimension="y"  name=""  label=""  auto="auto" />
+         <GraphSettings level="5%"  smoothingHighResolution="1"  contourHighResolution="1"  histogramSmoothingCount="0"  graphResolution="256"  showOutliers="0"  drawLargeDots="0"  dotsToDraw="8000"  tint="le.chartfill.tinted.40"  lineWeight="le.lineweight.normal"  lineStyle="le.linestyle.solid" />
+         <GraphEnvironment showGrid="0"  showAxes="tnlTNL"  showGates="1"  showFreqOnPlots="1"  showGateNameOnPlots="1"  showMedians="0"  showUncomped="0"  addEventParam="0"  lastYAxisName="" >
+           <TextTraits font="SansSerif"  size="11"  name="Labels"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           <TextTraits font="SansSerif"  size="11"  name="LayoutGates"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           <TextTraits font="SansSerif"  size="9"  name="Numbers"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           <TextTraits font="SansSerif"  size="9"  name="Legend"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+         </GraphEnvironment>
+       </Graph>
+       <Group name="Compensation"  live="1"  role="ws.group.dlog.compensation"  key=""  synchronized="0"  foreground="#bc1900"  fontStyle="bold" >
+         <Criteria>
+           <Criterion connector="And"  keyword="$FIL"  function="Contains"  value="comp" />
+           <Criterion connector="Or"  keyword="$FIL"  function="Contains"  value="unstained" />
+         </Criteria>
+         <Keywords/>
+       </Group>
+     </GroupNode>
+   </Groups>
+   <SampleList>
+     <Sample>
+       <DataSet uri="file:/C:/Users/Joe/Desktop/tstQA/B3.fcs"  sampleID="1" />
+       <transforms:spilloverMatrix prefix="Comp-"  name="Acquisition-defined"  editable="0"  color="#c0c0c0"  version="FlowJo-10.1r7"  status="FINALIZED"  transforms:id="6cb28774-32fc-4ce6-b499-f28ac862567f"  suffix="" >
+         <data-type:parameters>
+           <data-type:parameter data-type:name="FITC_Alexa 488-A" />
+           <data-type:parameter data-type:name="PE-A" />
+           <data-type:parameter data-type:name="PE-Cy55-A" />
+           <data-type:parameter data-type:name="PE-Cy7-A" />
+           <data-type:parameter data-type:name="CD3 CD14 Live_Dead-A" />
+           <data-type:parameter data-type:name="APC_Ax 647-A" />
+           <data-type:parameter data-type:name="APC-Ax700-A" />
+           <data-type:parameter data-type:name="APC-H7-A" />
+         </data-type:parameters>
+         <transforms:spillover data-type:parameter="FITC_Alexa 488-A" >
+           <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.1664330065" />
+           <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0.0096068867" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.001505101" />
+           <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0.0002051889" />
+           <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-A" >
+           <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0073842187" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0.1168720797" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0234806519" />
+           <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0.0000850476" />
+           <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0.0007224623" />
+           <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="0.0006267928" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0007114916" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-Cy55-A" >
+           <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0002513976" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0002512699" />
+           <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.374260217" />
+           <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0.0490389057" />
+           <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="0.7652805448" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0890212804" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-Cy7-A" >
+           <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0008061935" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0085444646" />
+           <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0.0029421791" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0.0860568434" />
+           <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="0.1091066226" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.1049794778" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="CD3 CD14 Live_Dead-A" >
+           <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0053691017" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0017894618" />
+           <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="APC_Ax 647-A" >
+           <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0000954564" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0.002695462" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0006188018" />
+           <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="1.0535115004" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0887667015" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="APC-Ax700-A" >
+           <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0002478313" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0001416286" />
+           <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0.002880929" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.002418088" />
+           <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0.0025690168" />
+           <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0787342042" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="APC-H7-A" >
+           <transforms:coefficient data-type:parameter="FITC_Alexa 488-A"  transforms:value="0.0008340404" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy55-A"  transforms:value="0.0001235649" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0171133261" />
+           <transforms:coefficient data-type:parameter="CD3 CD14 Live_Dead-A"  transforms:value="0.000390261" />
+           <transforms:coefficient data-type:parameter="APC_Ax 647-A"  transforms:value="0.0514524654" />
+           <transforms:coefficient data-type:parameter="APC-Ax700-A"  transforms:value="0.1793176234" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="1" />
+         </transforms:spillover>
+       </transforms:spilloverMatrix>
+       <Transformations>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="FSC-A" />
+         </transforms:linear>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="FSC-H" />
+         </transforms:linear>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="FSC-W" />
+         </transforms:linear>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0000291775"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.418539922" >
+           <data-type:parameter data-type:name="SSC-A" />
+         </transforms:biex>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="SSC-H" />
+         </transforms:linear>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="SSC-W" />
+         </transforms:linear>
+         <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+           <data-type:parameter data-type:name="FITC_Alexa 488-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+           <data-type:parameter data-type:name="PE-A" />
+         </transforms:biex>
+         <transforms:miltenyi transforms:maxRange="2630370" >
+           <data-type:parameter data-type:name="PE-Cy55-A" />
+         </transforms:miltenyi>
+         <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+           <data-type:parameter data-type:name="PE-Cy7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+           <data-type:parameter data-type:name="CD3 CD14 Live_Dead-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+           <data-type:parameter data-type:name="APC_Ax 647-A" />
+         </transforms:biex>
+         <transforms:hyperlog transforms:length="256"  transforms:maxRange="263036.9999999999"  transforms:T="263036.9999999999"  transforms:A="0.5"  transforms:M="5.4200168427"  transforms:W="0.5" >
+           <data-type:parameter data-type:name="APC-Ax700-A" />
+         </transforms:hyperlog>
+         <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+           <data-type:parameter data-type:name="APC-H7-A" />
+         </transforms:biex>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="24"  gain="0.0080476393" >
+           <data-type:parameter data-type:name="Time" />
+         </transforms:linear>
+         <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+           <data-type:parameter data-type:name="Comp-FITC_Alexa 488-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+           <data-type:parameter data-type:name="Comp-PE-A" />
+         </transforms:biex>
+         <transforms:miltenyi transforms:maxRange="2630370" >
+           <data-type:parameter data-type:name="Comp-PE-Cy55-A" />
+         </transforms:miltenyi>
+         <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+           <data-type:parameter data-type:name="Comp-PE-Cy7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+           <data-type:parameter data-type:name="Comp-CD3 CD14 Live_Dead-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+           <data-type:parameter data-type:name="Comp-APC_Ax 647-A" />
+         </transforms:biex>
+         <transforms:hyperlog transforms:length="256"  transforms:maxRange="263036.9999999999"  transforms:T="263036.9999999999"  transforms:A="0.5"  transforms:M="5.4200168427"  transforms:W="0.5" >
+           <data-type:parameter data-type:name="Comp-APC-Ax700-A" />
+         </transforms:hyperlog>
+         <transforms:biex transforms:length="256"  transforms:maxRange="263037.0000268953"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.4200168427" >
+           <data-type:parameter data-type:name="Comp-APC-H7-A" />
+         </transforms:biex>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="10000"  gain="1" >
+           <data-type:parameter data-type:name="DownsampleDP" />
+         </transforms:linear>
+       </Transformations>
+       <DerivedParameters>
+         <DerivedParameter name="DownsampleDP"  type="importClr"  importFile="file:/C:/Users/Joe/Desktop/29-Mar-2016/DownSample/DownSample.B3%20..ExtNode.clr"  range="10000"  columnIndex="1" >
+           <Transform>
+             <transforms:linear transforms:minRange="0"  transforms:maxRange="10000"  gain="1" >
+               <data-type:parameter data-type:name="DownsampleDP" />
+             </transforms:linear>
+           </Transform>
+         </DerivedParameter>
+       </DerivedParameters>
+       <Keywords>
+         <Keyword name="$ENDDATA"  value="     4572763" />
+         <Keyword name="$BEGINDATA"  value="        3584" />
+         <Keyword name="P15MS"  value="0" />
+         <Keyword name="P15BS"  value="0" />
+         <Keyword name="$P15E"  value="0, 0" />
+         <Keyword name="$P15G"  value="0.02414" />
+         <Keyword name="$P15R"  value="2048" />
+         <Keyword name="$P15B"  value="32" />
+         <Keyword name="$P15S"  value=" " />
+         <Keyword name="$P15N"  value="Time" />
+         <Keyword name="P14MS"  value="0" />
+         <Keyword name="P14DISPLAY"  value="LOG" />
+         <Keyword name="P14BS"  value="-1" />
+         <Keyword name="$P14E"  value="0, 0" />
+         <Keyword name="$P14G"  value="1" />
+         <Keyword name="$P14R"  value="263037" />
+         <Keyword name="$P14B"  value="32" />
+         <Keyword name="$P14S"  value="CD8" />
+         <Keyword name="$P14N"  value="APC-H7-A" />
+         <Keyword name="P13MS"  value="0" />
+         <Keyword name="P13DISPLAY"  value="LOG" />
+         <Keyword name="P13BS"  value="-1" />
+         <Keyword name="$P13E"  value="0, 0" />
+         <Keyword name="$P13G"  value="1" />
+         <Keyword name="$P13R"  value="263037" />
+         <Keyword name="$P13B"  value="32" />
+         <Keyword name="$P13S"  value="CD4" />
+         <Keyword name="$P13N"  value="APC-Ax700-A" />
+         <Keyword name="P12MS"  value="0" />
+         <Keyword name="P12DISPLAY"  value="LOG" />
+         <Keyword name="P12BS"  value="-1" />
+         <Keyword name="$P12E"  value="0, 0" />
+         <Keyword name="$P12G"  value="1" />
+         <Keyword name="$P12R"  value="263037" />
+         <Keyword name="$P12B"  value="32" />
+         <Keyword name="$P12S"  value="2H2" />
+         <Keyword name="$P12N"  value="APC_Ax 647-A" />
+         <Keyword name="P11MS"  value="0" />
+         <Keyword name="P11DISPLAY"  value="LOG" />
+         <Keyword name="P11BS"  value="-1" />
+         <Keyword name="$P11E"  value="0, 0" />
+         <Keyword name="$P11G"  value="1" />
+         <Keyword name="$P11R"  value="263037" />
+         <Keyword name="$P11B"  value="32" />
+         <Keyword name="$P11S"  value="7AAD" />
+         <Keyword name="$P11N"  value="CD3 CD14 Live_Dead-A" />
+         <Keyword name="P10MS"  value="0" />
+         <Keyword name="P10DISPLAY"  value="LOG" />
+         <Keyword name="P10BS"  value="-1" />
+         <Keyword name="$P10E"  value="0, 0" />
+         <Keyword name="$P10G"  value="1" />
+         <Keyword name="$P10R"  value="263037" />
+         <Keyword name="$P10B"  value="32" />
+         <Keyword name="$P10S"  value="CD45RO" />
+         <Keyword name="$P10N"  value="PE-Cy7-A" />
+         <Keyword name="P9MS"  value="0" />
+         <Keyword name="P9DISPLAY"  value="LOG" />
+         <Keyword name="P9BS"  value="-1" />
+         <Keyword name="$P9E"  value="0, 0" />
+         <Keyword name="$P9G"  value="1" />
+         <Keyword name="$P9R"  value="263037" />
+         <Keyword name="$P9B"  value="32" />
+         <Keyword name="$P9S"  value="CD3" />
+         <Keyword name="$P9N"  value="PE-Cy55-A" />
+         <Keyword name="P8MS"  value="0" />
+         <Keyword name="P8DISPLAY"  value="LOG" />
+         <Keyword name="P8BS"  value="-1" />
+         <Keyword name="$P8E"  value="0, 0" />
+         <Keyword name="$P8G"  value="1" />
+         <Keyword name="$P8R"  value="263037" />
+         <Keyword name="$P8B"  value="32" />
+         <Keyword name="$P8S"  value="CD11c" />
+         <Keyword name="$P8N"  value="PE-A" />
+         <Keyword name="P7MS"  value="0" />
+         <Keyword name="P7DISPLAY"  value="LOG" />
+         <Keyword name="P7BS"  value="-1" />
+         <Keyword name="$P7E"  value="0, 0" />
+         <Keyword name="$P7G"  value="1" />
+         <Keyword name="$P7R"  value="263037" />
+         <Keyword name="$P7B"  value="32" />
+         <Keyword name="$P7S"  value="CD56" />
+         <Keyword name="$P7N"  value="FITC_Alexa 488-A" />
+         <Keyword name="P6MS"  value="0" />
+         <Keyword name="P6BS"  value="-1" />
+         <Keyword name="$P6E"  value="0, 0" />
+         <Keyword name="$P6G"  value="1" />
+         <Keyword name="$P6R"  value="262144" />
+         <Keyword name="$P6B"  value="32" />
+         <Keyword name="$P6S"  value=" " />
+         <Keyword name="$P6N"  value="SSC-W" />
+         <Keyword name="P5MS"  value="0" />
+         <Keyword name="P5DISPLAY"  value="LIN" />
+         <Keyword name="P5BS"  value="-1" />
+         <Keyword name="$P5E"  value="0, 0" />
+         <Keyword name="$P5G"  value="1" />
+         <Keyword name="$P5R"  value="262144" />
+         <Keyword name="$P5B"  value="32" />
+         <Keyword name="$P5S"  value=" " />
+         <Keyword name="$P5N"  value="SSC-H" />
+         <Keyword name="P4MS"  value="0" />
+         <Keyword name="P4DISPLAY"  value="LIN" />
+         <Keyword name="P4BS"  value="-1" />
+         <Keyword name="$P4E"  value="0, 0" />
+         <Keyword name="$P4G"  value="1" />
+         <Keyword name="$P4R"  value="262144" />
+         <Keyword name="$P4B"  value="32" />
+         <Keyword name="$P4S"  value=" " />
+         <Keyword name="$P4N"  value="SSC-A" />
+         <Keyword name="P3MS"  value="0" />
+         <Keyword name="P3BS"  value="-1" />
+         <Keyword name="$P3E"  value="0, 0" />
+         <Keyword name="$P3G"  value="1" />
+         <Keyword name="$P3R"  value="262144" />
+         <Keyword name="$P3B"  value="32" />
+         <Keyword name="$P3S"  value=" " />
+         <Keyword name="$P3N"  value="FSC-W" />
+         <Keyword name="P2MS"  value="0" />
+         <Keyword name="P2DISPLAY"  value="LIN" />
+         <Keyword name="P2BS"  value="-1" />
+         <Keyword name="$P2E"  value="0, 0" />
+         <Keyword name="$P2G"  value="1" />
+         <Keyword name="$P2R"  value="262144" />
+         <Keyword name="$P2B"  value="32" />
+         <Keyword name="$P2S"  value=" " />
+         <Keyword name="$P2N"  value="FSC-H" />
+         <Keyword name="P1MS"  value="0" />
+         <Keyword name="P1DISPLAY"  value="LIN" />
+         <Keyword name="P1BS"  value="-1" />
+         <Keyword name="$P1E"  value="0, 0" />
+         <Keyword name="$P1G"  value="1" />
+         <Keyword name="$P1R"  value="262144" />
+         <Keyword name="$P1B"  value="32" />
+         <Keyword name="$P1S"  value=" " />
+         <Keyword name="$P1N"  value="FSC-A" />
+         <Keyword name="CREATOR"  value="FlowJo" />
+         <Keyword name="WINDOW EXTENSION"  value="10.00" />
+         <Keyword name="WELL ID"  value="B03" />
+         <Keyword name="TUBE NAME"  value="B3" />
+         <Keyword name="THRESHOLD"  value="(FSC,20000).AND.(SSC,5000)" />
+         <Keyword name="SPILL"  value="8,FITC_Alexa 488-A,PE-A,PE-Cy55-A,PE-Cy7-A,CD3 CD14 Live_Dead-A,APC_Ax 647-A,APC-Ax700-A,APC-H7-A,1,0.16643300787482143,0.009606886236148684,0.0015051009909208169,0,0.00020518888830885058,0,0,0.007384218964039767,1,0.11687207968748373,0.023480652355636036,0.00008504755266136914,0.0007224623180112922,0.0006267928046597421,0.0007114916490938666,0.00025139760025828523,0.00025126988754534075,1,0.3742602095972257,0,0.049038905774422256,0.7652805220707191,0.08902127783467159,0.0008061934915472157,0.008544464271790835,0.002942178984734687,1,0,0.08605684505229083,0.10910662609106951,0.10497947698872584,0.00536910186265687,0.0017894617892055265,0,0,1,0,0,0,0.00009545641530928031,0,0.0026954618627686245,0.0006188017905481432,0,1,1.0535114953329914,0.08876670472835832,0.0002478312534206834,0.00014162863644431127,0.002880929008212223,0.00241808805664468,0,0.0025690168540350327,1,0.07873420636831327,0.0008340404224078871,0,0.00012356486776429765,0.017113326321679487,0.00039026099367006574,0.05145246481613921,0.17931761751577005,1" />
+         <Keyword name="PLATE NAME"  value="96 Well - U bottom" />
+         <Keyword name="PLATE ID"  value="766b4460-8810-4bdc-87fb-7369a4f01870" />
+         <Keyword name="Panel"  value="2" />
+         <Keyword name="LASER4NAME"  value="Red" />
+         <Keyword name="LASER4DELAY"  value="59.70" />
+         <Keyword name="LASER4ASF"  value="0.80" />
+         <Keyword name="LASER3NAME"  value="UV" />
+         <Keyword name="LASER3DELAY"  value="-27.40" />
+         <Keyword name="LASER3ASF"  value="1.30" />
+         <Keyword name="LASER2NAME"  value="Violet" />
+         <Keyword name="LASER2DELAY"  value="23.80" />
+         <Keyword name="LASER2ASF"  value="0.75" />
+         <Keyword name="LASER1NAME"  value="Blue" />
+         <Keyword name="LASER1DELAY"  value="0.00" />
+         <Keyword name="LASER1ASF"  value="1.00" />
+         <Keyword name="GUID"  value="93803363-afdf-4b3d-8863-7122611c7dc7" />
+         <Keyword name="FSC ASF"  value="0.82" />
+         <Keyword name="FJ_CompMatrixName"  value=" " />
+         <Keyword name="FJ_$TIMESTEP"  value="5.149" />
+         <Keyword name="EXPORT USER NAME"  value="Administrator" />
+         <Keyword name="EXPORT TIME"  value="23-OCT-2008-12:12:07" />
+         <Keyword name="EXPERIMENT NAME"  value="PBMC FlowJo" />
+         <Keyword name="Day"  value="4" />
+         <Keyword name="CYTNUM"  value="1" />
+         <Keyword name="AUTOBS"  value="TRUE" />
+         <Keyword name="APPLY COMPENSATION"  value="TRUE" />
+         <Keyword name="$TIMESTEP"  value="41.42" />
+         <Keyword name="$SYS"  value="Windows XP 5.1" />
+         <Keyword name="$SRC"  value="Specimen_001" />
+         <Keyword name="$OP"  value="Administrator" />
+         <Keyword name="$INST"  value=" " />
+         <Keyword name="$ETIM"  value="11:53:43" />
+         <Keyword name="$ENDSTEXT"  value="0" />
+         <Keyword name="$DATE"  value="10-OCT-2008" />
+         <Keyword name="$CYT"  value="LSRII" />
+         <Keyword name="$BTIM"  value="11:53:19" />
+         <Keyword name="$BEGINSTEXT"  value="0" />
+         <Keyword name="FlowJoDemoFileID"  value="3122020251" />
+         <Keyword name="$DATATYPE"  value="F" />
+         <Keyword name="$NEXTDATA"  value="0" />
+         <Keyword name="$FIL"  value="B3 .fcs" />
+         <Keyword name="$BYTEORD"  value="4,3,2,1" />
+         <Keyword name="$MODE"  value="L" />
+         <Keyword name="$PAR"  value="15" />
+         <Keyword name="$TOT"  value="76153" />
+         <Keyword name="FJ_FCS_VERSION"  value="3" />
+         <Keyword name="$P16N"  value="Comp-FITC_Alexa 488-A" />
+         <Keyword name="$P16S"  value="CD56" />
+         <Keyword name="$P16R"  value="263037" />
+         <Keyword name="$P17N"  value="Comp-PE-A" />
+         <Keyword name="$P17S"  value="CD11c" />
+         <Keyword name="$P17R"  value="263037" />
+         <Keyword name="$P18N"  value="Comp-PE-Cy55-A" />
+         <Keyword name="$P18S"  value="CD3" />
+         <Keyword name="$P18R"  value="263037" />
+         <Keyword name="$P19N"  value="Comp-PE-Cy7-A" />
+         <Keyword name="$P19S"  value="CD45RO" />
+         <Keyword name="$P19R"  value="263037" />
+         <Keyword name="$P20N"  value="Comp-CD3 CD14 Live_Dead-A" />
+         <Keyword name="$P20S"  value="7AAD" />
+         <Keyword name="$P20R"  value="263037" />
+         <Keyword name="$P21N"  value="Comp-APC_Ax 647-A" />
+         <Keyword name="$P21S"  value="2H2" />
+         <Keyword name="$P21R"  value="263037" />
+         <Keyword name="$P22N"  value="Comp-APC-Ax700-A" />
+         <Keyword name="$P22S"  value="CD4" />
+         <Keyword name="$P22R"  value="263037" />
+         <Keyword name="$P23N"  value="Comp-APC-H7-A" />
+         <Keyword name="$P23S"  value="CD8" />
+         <Keyword name="$P23R"  value="263037" />
+       </Keywords>
+       <SampleNode name="B3 .fcs"  annotation=""  owningGroup=""  expanded="1"  sortPriority="10"  count="76153"  sampleID="1" >
+         <Graph smoothing="0"  backColor="#ffffff"  foreColor="#000000"  type="Pseudocolor"  fast="1" >
+           <Axis dimension="x"  name="FSC-A"  label=""  auto="auto" />
+           <Axis dimension="y"  name="SSC-A"  label=""  auto="auto" />
+           <GraphSettings level="5%"  smoothingHighResolution="1"  contourHighResolution="1"  histogramSmoothingCount="0"  graphResolution="256"  showOutliers="0"  drawLargeDots="0"  dotsToDraw="8000"  tint="le.chartfill.tinted.40"  lineWeight="le.lineweight.normal"  lineStyle="le.linestyle.solid" />
+           <GraphEnvironment showGrid="0"  showAxes="tnlTNL"  showGates="1"  showFreqOnPlots="1"  showGateNameOnPlots="1"  showMedians="0"  showUncomped="0"  addEventParam="0"  lastYAxisName="" >
+             <TextTraits font="SansSerif"  size="11"  name="Labels"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="11"  name="LayoutGates"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="9"  name="Numbers"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="9"  name="Legend"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <WindowPosition x="0"  y="0"  width="0"  height="0"  displayed="0"  panelState="" />
+           </GraphEnvironment>
+         </Graph>
+         <Subpopulations>
+           <ExternalPopNode name="DownSample"  annotation=""  owningGroup=""  expanded="1"  sortPriority="9"  javaClass="com.plugins.DownSample"  jarFile="C:\Users\Joe\Desktop\Plugins\DownSample.jar" >
+             <DownSample numEvents="3000"  version="1.1" />
+           </ExternalPopNode>
+           <Population name="DownsampleDP.Pop"  annotation=""  owningGroup=""  expanded="1"  sortPriority="10"  count="3000" >
+             <Graph smoothing="0"  backColor="#ffffff"  foreColor="#000000"  type="Histogram"  fast="1" >
+               <Axis dimension="x"  name="DownsampleDP"  label=""  auto="auto" />
+               <Axis dimension="y"  name=""  label=""  auto="auto" />
+               <GraphSettings level="5%"  smoothingHighResolution="1"  contourHighResolution="1"  histogramSmoothingCount="0"  graphResolution="256"  showOutliers="0"  drawLargeDots="0"  dotsToDraw="8000" />
+               <GraphEnvironment showGrid="0"  showAxes="tnlTNL"  showGates="1"  showFreqOnPlots="1"  showGateNameOnPlots="1"  showMedians="0"  showUncomped="0"  addEventParam="0"  lastYAxisName="" >
+                 <TextTraits font="SansSerif"  size="11"  name="Labels"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+                 <TextTraits font="SansSerif"  size="11"  name="LayoutGates"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+                 <TextTraits font="SansSerif"  size="9"  name="Numbers"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+                 <TextTraits font="SansSerif"  size="9"  name="Legend"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+                 <WindowPosition x="0"  y="0"  width="0"  height="0"  displayed="0"  panelState="" />
+               </GraphEnvironment>
+             </Graph>
+             <Gate gating:id="ID1212200728" >
+               <gating:RectangleGate eventsInside="1"  annoOffsetX="0"  annoOffsetY="-20"  tint="#000000"  isTinted="0"  lineWeight="Normal"  userDefined="1" >
+                 <gating:dimension gating:min="9726.5625"  gating:max="9921.875"  yRatio="0.3" >
+                   <data-type:fcs-dimension data-type:name="DownsampleDP" />
+                 </gating:dimension>
+               </gating:RectangleGate>
+             </Gate>
+           </Population>
+         </Subpopulations>
+       </SampleNode>
+     </Sample>
+   </SampleList>
+   <TableEditor title="FlowJo Tables: 29-Mar-2016.wsp"  current="Table" >
+     <Table name="Table"  outputFile="file:/C:/Users/Joe/Documents/Table"  color="#00ffffff"  isBatch="0"  quickclose="0"  destination="toDisplay"  outputFormat="fj.document.type.table" >
+       <PrintLayout flipPattern0="0"  rows="1"  columns="1"  padding="36"  header=""  footer=""  headerActive="0"  footerActive="0"  scalingMode="fj.print.scale.none"  scaling="1"  orientation="1"  width="595.2744"  height="841.8888"  imageableX="72"  imageableY="72"  imageableWidth="451.2744"  imageableHeight="697.8888" />
+       <PageSection sectionName="header" >&lt;table width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&amp;NBSP&amp;NBSP&amp;NBSP&amp;NBSP&lt;IMG SRC=&quot;file:/C:/Program%20Files/FlowJo%20V10/images/test/fj_icon.png&quot;&gt;&lt;/IMG&gt;&lt;br/&gt;FlowJo, LLC&lt;/td&gt;&lt;td align=&quot;right&quot; valign=&quot;top&quot;&gt;Page &lt;PageNumber/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</PageSection>
+       <PageSection sectionName="footer" >&lt;table width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td align=&quot;left&quot;  valign=&quot;bottom&quot;&gt;&lt;LongDate/&gt;&lt;/td&gt;&lt;td align=&quot;right&quot; valign=&quot;bottom&quot;&gt;&lt;Version/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</PageSection>
+       <Iteration iterationType="SAMPLE"  iterationValue="1"  iterationKeyword=""  discriminator=""  panelSize="1"  groupName="workspaceSelection" />
+     </Table>
+   </TableEditor>
+   <LayoutEditor title="FlowJo Layouts: 29-Mar-2016.wsp"  current="Layout"  showGrid="0"  showPageBreaks="0"  showGuides="0"  showDebugOutput="0" >
+     <Layout name="Layout"  outputFile="file:/C:/Users/Joe/Documents/Layout"  color="#00ffffff"  isBatch="0"  showGrid="0"  showRulers="1"  showDebugOutput="0"  showGuides="0"  showPageBreaks="1"  scale="1" >
+       <PrintLayout flipPattern0="0"  rows="1"  columns="1"  padding="36"  header=""  footer=""  headerActive="1"  footerActive="1"  scalingMode="fj.print.scale.none"  scaling="1"  orientation="1"  width="595.2744"  height="841.8888"  imageableX="72"  imageableY="72"  imageableWidth="451.2744"  imageableHeight="697.8888" />
+       <PageSection sectionName="header" >&lt;table width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&amp;NBSP&amp;NBSP&amp;NBSP&amp;NBSP&lt;IMG SRC=&quot;file:/C:/Program%20Files/FlowJo%20V10/images/test/fj_icon.png&quot;&gt;&lt;/IMG&gt;&lt;br/&gt;FlowJo, LLC&lt;/td&gt;&lt;td align=&quot;right&quot; valign=&quot;top&quot;&gt;Page &lt;PageNumber/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</PageSection>
+       <PageSection sectionName="footer" >&lt;table width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td align=&quot;left&quot;  valign=&quot;bottom&quot;&gt;&lt;LongDate/&gt;&lt;/td&gt;&lt;td align=&quot;right&quot; valign=&quot;bottom&quot;&gt;&lt;Version/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</PageSection>
+       <Iteration iterationType="OFF"  iterationValue="1"  iterationKeyword=""  discriminator=""  panelSize="1"  groupName="workspaceSelection" />
+       <BatchSettings useCurrentGroup="1"  length="3"  name=""  order="ACROSS"  direction="COLUMNS"  append="0"  destination="toLayout"  separatePages="0"  launchApp="1"  header="0"  footer="0"  commandLineBatch="0" />
+       <FigList/>
+     </Layout>
+     <WindowPosition x="0"  y="0"  width="900"  height="600" />
+   </LayoutEditor>
+   <Scripts>
+     <Script lang="text/javascript"  name="New Script    " />
+   </Scripts>
+   <Experiment>
+     <PlateModel name="Plate"  color="#00ffffff"  rows="8"  columns="12"  plateID="00000"  expID="000-00000"  format="Plate"  showNEntries="1"  peHeatmap="1"  peShowEnums="1"  peThickBorders="1" >
+       <PrintLayout flipPattern0="0"  rows="1"  columns="1"  padding="36"  header=""  footer=""  headerActive="0"  footerActive="0"  scalingMode="fj.print.scale.none"  scaling="1"  orientation="1"  width="595.2744"  height="841.8888"  imageableX="72"  imageableY="72"  imageableWidth="451.2744"  imageableHeight="697.8888" />
+     </PlateModel>
+     <PlateEditorState>
+       <KeywordList>
+         <Keyword attribute="Assay"  value="GFP Reporter" />
+         <Keyword attribute="Treatment &quot;Drug A&quot;"  value="10ug/L" />
+         <Keyword attribute="Time point"  value="24hr" />
+       </KeywordList>
+       <StagingArea>
+         <StagingWell/>
+         <StagingWell/>
+         <StagingWell/>
+         <StagingWell/>
+       </StagingArea>
+     </PlateEditorState>
+   </Experiment>
+   <Exports/>
+   <SOPS/>
+   <experiment/>
+ </Workspace>

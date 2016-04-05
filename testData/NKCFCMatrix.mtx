@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <gating:gatingML>
+   <transforms:spilloverMatrix prefix="Comp-"  name="NKCFCMatrix"  editable="0"  color="#00ccff"  version="FlowJo-10.0.8a11"  status="FINALIZED"  transforms:id="0b91c08d-061a-441d-98f8-dc81f6bb30f8"  suffix="" >
+     <data-type:parameters>
+       <data-type:parameter data-type:name="PE-Cy7-A" />
+       <data-type:parameter data-type:name="PacBlue-A" />
+       <data-type:parameter data-type:name="PerCP-Cy5-5-A" />
+       <data-type:parameter data-type:name="APC-Cy7-A" />
+       <data-type:parameter data-type:name="Qdot 605-A" />
+       <data-type:parameter data-type:name="PE-TxRed-A" />
+       <data-type:parameter data-type:name="Ax700-A" />
+       <data-type:parameter data-type:name="PE-A" />
+       <data-type:parameter data-type:name="APC-A" />
+       <data-type:parameter data-type:name="FITC-A" />
+       <data-type:parameter data-type:name="AARD-A" />
+     </data-type:parameters>
+     <transforms:spillover data-type:parameter="PE-Cy7-A" >
+       <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="1" />
+       <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0000957813" />
+       <transforms:coefficient data-type:parameter="PerCP-Cy5-5-A"  transforms:value="0.0010261609" />
+       <transforms:coefficient data-type:parameter="APC-Cy7-A"  transforms:value="0.0415681399" />
+       <transforms:coefficient data-type:parameter="Qdot 605-A"  transforms:value="0.000336314" />
+       <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0047831613" />
+       <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0041247724" />
+       <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0180077878" />
+       <transforms:coefficient data-type:parameter="APC-A"  transforms:value="0.0002300584" />
+       <transforms:coefficient data-type:parameter="FITC-A"  transforms:value="0.0006306758" />
+       <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.0000430924" />
+     </transforms:spillover>
+     <transforms:spillover data-type:parameter="PacBlue-A" >
+       <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+       <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="1" />
+       <transforms:coefficient data-type:parameter="PerCP-Cy5-5-A"  transforms:value="0" />
+       <transforms:coefficient data-type:parameter="APC-Cy7-A"  transforms:value="0" />
+       <transforms:coefficient data-type:parameter="Qdot 605-A"  transforms:value="0.0118503879" />
+       <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0000318652" />
+       <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0000306526" />
+       <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0" />
+       <transforms:coefficient data-type:parameter="APC-A"  transforms:value="-0.0001500746" />
+       <transforms:coefficient data-type:parameter="FITC-A"  transforms:value="0.0011818712" />
+       <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.1072159368" />
+     </transforms:spillover>
+     <transforms:spillover data-type:parameter="PerCP-Cy5-5-A" >
+       <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.1597852776" />
+       <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0017834561" />
+       <transforms:coefficient data-type:parameter="PerCP-Cy5-5-A"  transforms:value="1" />
+       <transforms:coefficient data-type:parameter="APC-Cy7-A"  transforms:value="0.0770147871" />
+       <transforms:coefficient data-type:parameter="Qdot 605-A"  transforms:value="-0.0002188609" />
+       <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0001856664" />
+       <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.3214050716" />
+       <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0004762185" />
+       <transforms:coefficient data-type:parameter="APC-A"  transforms:value="0.1536571129" />
+       <transforms:coefficient data-type:parameter="FITC-A"  transforms:value="-0.0002183172" />
+       <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.0006159698" />
+     </transforms:spillover>
+     <transforms:spillover data-type:parameter="APC-Cy7-A" >
+       <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.5554905473" />
+       <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0005577988" />
+       <transforms:coefficient data-type:parameter="PerCP-Cy5-5-A"  transforms:value="0.0006697828" />
+       <transforms:coefficient data-type:parameter="APC-Cy7-A"  transforms:value="1" />
+       <transforms:coefficient data-type:parameter="Qdot 605-A"  transforms:value="-0.0000482473" />
+       <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0007490428" />
+       <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.1491519734" />
+       <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0002966898" />
+       <transforms:coefficient data-type:parameter="APC-A"  transforms:value="0.1118790348" />
+       <transforms:coefficient data-type:parameter="FITC-A"  transforms:value="0" />
+       <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.0002365507" />
+     </transforms:spillover>
+     <transforms:spillover data-type:parameter="Qdot 605-A" >
+       <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0002012861" />
+       <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.00079634" />
+       <transforms:coefficient data-type:parameter="PerCP-Cy5-5-A"  transforms:value="0.0015047962" />
+       <transforms:coefficient data-type:parameter="APC-Cy7-A"  transforms:value="0" />
+       <transforms:coefficient data-type:parameter="Qdot 605-A"  transforms:value="1" />
+       <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.3905026761" />
+       <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0" />
+       <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0734536969" />
+       <transforms:coefficient data-type:parameter="APC-A"  transforms:value="0.0001006798" />
+       <transforms:coefficient data-type:parameter="FITC-A"  transforms:value="-0.0000484881" />
+       <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.0002750398" />
+     </transforms:spillover>
+     <transforms:spillover data-type:parameter="PE-TxRed-A" >
+       <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.1001423751" />
+       <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0004263663" />
+       <transforms:coefficient data-type:parameter="PerCP-Cy5-5-A"  transforms:value="0.2605494345" />
+       <transforms:coefficient data-type:parameter="APC-Cy7-A"  transforms:value="0.0003543251" />
+       <transforms:coefficient data-type:parameter="Qdot 605-A"  transforms:value="0.093620411" />
+       <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="1" />
+       <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0015119023" />
+       <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.3252804796" />
+       <transforms:coefficient data-type:parameter="APC-A"  transforms:value="0.0031143534" />
+       <transforms:coefficient data-type:parameter="FITC-A"  transforms:value="0.0019375014" />
+       <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.000164676" />
+     </transforms:spillover>
+     <transforms:spillover data-type:parameter="Ax700-A" >
+       <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.07279378" />
+       <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0007619244" />
+       <transforms:coefficient data-type:parameter="PerCP-Cy5-5-A"  transforms:value="0.005931441" />
+       <transforms:coefficient data-type:parameter="APC-Cy7-A"  transforms:value="0.1838281483" />
+       <transforms:coefficient data-type:parameter="Qdot 605-A"  transforms:value="-0.0002148941" />
+       <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0005833833" />
+       <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="1" />
+       <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0001881608" />
+       <transforms:coefficient data-type:parameter="APC-A"  transforms:value="0.015963019" />
+       <transforms:coefficient data-type:parameter="FITC-A"  transforms:value="0.0003801235" />
+       <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.0003056262" />
+     </transforms:spillover>
+     <transforms:spillover data-type:parameter="PE-A" >
+       <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0098123744" />
+       <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0001042613" />
+       <transforms:coefficient data-type:parameter="PerCP-Cy5-5-A"  transforms:value="0.0385192704" />
+       <transforms:coefficient data-type:parameter="APC-Cy7-A"  transforms:value="0.0000165916" />
+       <transforms:coefficient data-type:parameter="Qdot 605-A"  transforms:value="0.0326531852" />
+       <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.2349710703" />
+       <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0000662093" />
+       <transforms:coefficient data-type:parameter="PE-A"  transforms:value="1" />
+       <transforms:coefficient data-type:parameter="APC-A"  transforms:value="0.0001008193" />
+       <transforms:coefficient data-type:parameter="FITC-A"  transforms:value="0.0030303149" />
+       <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.0000272931" />
+     </transforms:spillover>
+     <transforms:spillover data-type:parameter="APC-A" >
+       <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0382533043" />
+       <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.000212122" />
+       <transforms:coefficient data-type:parameter="PerCP-Cy5-5-A"  transforms:value="0.00501321" />
+       <transforms:coefficient data-type:parameter="APC-Cy7-A"  transforms:value="0.0630430812" />
+       <transforms:coefficient data-type:parameter="Qdot 605-A"  transforms:value="0.0002452862" />
+       <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0008892991" />
+       <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.3481968484" />
+       <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0000963375" />
+       <transforms:coefficient data-type:parameter="APC-A"  transforms:value="1" />
+       <transforms:coefficient data-type:parameter="FITC-A"  transforms:value="-0.0000402155" />
+       <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.0000898497" />
+     </transforms:spillover>
+     <transforms:spillover data-type:parameter="FITC-A" >
+       <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+       <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0010345636" />
+       <transforms:coefficient data-type:parameter="PerCP-Cy5-5-A"  transforms:value="0.0113476379" />
+       <transforms:coefficient data-type:parameter="APC-Cy7-A"  transforms:value="0" />
+       <transforms:coefficient data-type:parameter="Qdot 605-A"  transforms:value="0.0049149312" />
+       <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0001702867" />
+       <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0" />
+       <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0002199848" />
+       <transforms:coefficient data-type:parameter="APC-A"  transforms:value="-0.0002885314" />
+       <transforms:coefficient data-type:parameter="FITC-A"  transforms:value="1" />
+       <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0210492847" />
+     </transforms:spillover>
+     <transforms:spillover data-type:parameter="AARD-A" >
+       <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0076720221" />
+       <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.4070596907" />
+       <transforms:coefficient data-type:parameter="PerCP-Cy5-5-A"  transforms:value="0.0149296646" />
+       <transforms:coefficient data-type:parameter="APC-Cy7-A"  transforms:value="0.0037790939" />
+       <transforms:coefficient data-type:parameter="Qdot 605-A"  transforms:value="0.4779571776" />
+       <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0107424333" />
+       <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0138289991" />
+       <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0112596113" />
+       <transforms:coefficient data-type:parameter="APC-A"  transforms:value="0.0208373124" />
+       <transforms:coefficient data-type:parameter="FITC-A"  transforms:value="0.0481476399" />
+       <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="1" />
+     </transforms:spillover>
+   </transforms:spilloverMatrix>
+ </gating:gatingML>

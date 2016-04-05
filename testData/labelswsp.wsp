@@ -1,0 +1,1872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Workspace version="20.0"  modDate="Thu Sep 17 12:08:46 CDT 2015"  clientTimestamp="1442509726997"  flowJoVersion="10.1"  drawRowBorders="1"  drawColumnBorders="1"  curGroup="All Samples"  groupPaneHeight="-1"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns:gating="http://www.isac-net.org/std/Gating-ML/v2.0/gating"  xmlns:transforms="http://www.isac-net.org/std/Gating-ML/v2.0/transformations"  xmlns:data-type="http://www.isac-net.org/std/Gating-ML/v2.0/datatypes"  xsi:schemaLocation="http://www.isac-net.org/std/Gating-ML/v2.0/gating http://www.isac-net.org/std/Gating-ML/v2.0/gating/Gating-ML.v2.0.xsd http://www.isac-net.org/std/Gating-ML/v2.0/transformations http://www.isac-net.org/std/Gating-ML/v2.0/gating/Transformations.v2.0.xsd http://www.isac-net.org/std/Gating-ML/v2.0/datatypes http://www.isac-net.org/std/Gating-ML/v2.0/gating/DataTypes.v2.0.xsd "  nonAutoSaveFileName="file:/Users/Jack/Desktop/labelswsp.wsp" >
+   <WindowPosition x="42"  y="23"  width="600"  height="720"  displayed="1"  panelState="" />
+   <TextTraits font="SansSerif"  size="11"  name=""  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+   <Columns>
+     <TColumn width="305" >
+       <Property key="fj.appnode.prop.name" />
+     </TColumn>
+     <TColumn width="146" >
+       <Property key="fj.appnode.prop.statistic" />
+     </TColumn>
+     <TColumn width="145" >
+       <Property key="fj.appnode.prop.ncells" />
+     </TColumn>
+   </Columns>
+   <Matrices>
+     <transforms:spilloverMatrix prefix="Comp-"  name="Acquisition-defined"  editable="0"  color="#c0c0c0"  version="FlowJo-10.1"  status="FINALIZED"  transforms:id="9230825b-6ef9-40db-9e9c-16b537575932"  suffix="" >
+       <data-type:parameters>
+         <data-type:parameter data-type:name="Ax700-A" />
+         <data-type:parameter data-type:name="PacBlue-A" />
+         <data-type:parameter data-type:name="PE-TxRed-A" />
+         <data-type:parameter data-type:name="PE-Cy5-A" />
+         <data-type:parameter data-type:name="APC-H7-A" />
+         <data-type:parameter data-type:name="PE-A" />
+         <data-type:parameter data-type:name="Ax488-A" />
+         <data-type:parameter data-type:name="AARD-A" />
+         <data-type:parameter data-type:name="PE-Cy7-A" />
+       </data-type:parameters>
+       <transforms:spillover data-type:parameter="Ax700-A" >
+         <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0008647687" />
+         <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0121002384" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.35113132" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="-0.0017267386" />
+         <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0008642069" />
+         <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.1058214903" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="PacBlue-A" >
+         <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0001186181" />
+         <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0004735323" />
+         <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.1684399247" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="PE-TxRed-A" >
+         <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0005604773" />
+         <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000566839" />
+         <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.5281129479" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0002802337" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.2397827506" />
+         <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.001177187" />
+         <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0000561591" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0611182339" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="PE-Cy5-A" >
+         <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0777354017" />
+         <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000173988" />
+         <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0071503641" />
+         <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.03019947" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.016183814" />
+         <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0002580747" />
+         <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0000172377" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.1208221391" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="APC-H7-A" >
+         <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0329275057" />
+         <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0005141294" />
+         <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0010171791" />
+         <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0081361271" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0005093355" />
+         <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0005093355" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.3972149193" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="PE-A" >
+         <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0003928805" />
+         <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000567755" />
+         <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.3762739599" />
+         <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.1447977275" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0001122504" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0034275143" />
+         <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0131560434" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="Ax488-A" >
+         <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0001802205" />
+         <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0001803209" />
+         <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0003611797" />
+         <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0185536556" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="AARD-A" >
+         <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.000706908" />
+         <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.2408742458" />
+         <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0009429109" />
+         <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.001769511" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0003533925" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.000589256" />
+         <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0037792015" />
+         <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="1" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0003534096" />
+       </transforms:spillover>
+       <transforms:spillover data-type:parameter="PE-Cy7-A" >
+         <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0031226997" />
+         <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0000384491" />
+         <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0082033724" />
+         <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0036599841" />
+         <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0575354397" />
+         <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0187994316" />
+         <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0005703121" />
+         <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.0000380961" />
+         <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="1" />
+       </transforms:spillover>
+     </transforms:spilloverMatrix>
+   </Matrices>
+   <Cytometers>
+     <Cytometer name="DIVA"  cyt="LSRII"  useFCS3="1"  extraNegs="0"  widthBasis="-100"  linMin="0"  logMin="3"  linMax="262144"  logMax="262144"  linearRescale="1"  logRescale="1"  linFromKW="1"  logFromKW="1"  useGain="0"  useTransform="1"  transformType="BIEX"  manufacturer=""  serialnumber=""  homepage="workspaces-and-samples/flowjo-and-your-cytometer/ws-cytometer-bd/"  icon="bd.PNG" >
+       <LinParams>
+         <Param>time</Param>
+       </LinParams>
+       <LogParams/>
+       <FilterParams/>
+       <TransformStore>
+         <Transforms>
+           <MatrixID matrixId="9230825b-6ef9-40db-9e9c-16b537575932" />
+           <Transforms>
+             <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+               <data-type:parameter data-type:name="Ax647-A" />
+             </transforms:biex>
+             <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+               <data-type:parameter data-type:name="FSC-H" />
+             </transforms:linear>
+             <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+               <data-type:parameter data-type:name="Ax700-A" />
+             </transforms:biex>
+             <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+               <data-type:parameter data-type:name="APC-H7-A" />
+             </transforms:biex>
+             <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+               <data-type:parameter data-type:name="AARD-A" />
+             </transforms:biex>
+             <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+               <data-type:parameter data-type:name="SSC-A" />
+             </transforms:linear>
+             <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+               <data-type:parameter data-type:name="PE-TxRed-A" />
+             </transforms:biex>
+             <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+               <data-type:parameter data-type:name="PE-Cy5-A" />
+             </transforms:biex>
+             <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+               <data-type:parameter data-type:name="PE-A" />
+             </transforms:biex>
+             <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+               <data-type:parameter data-type:name="PacBlue-A" />
+             </transforms:biex>
+             <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+               <data-type:parameter data-type:name="Ax488-A" />
+             </transforms:biex>
+             <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+               <data-type:parameter data-type:name="FSC-A" />
+             </transforms:linear>
+             <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+               <data-type:parameter data-type:name="PE-Cy7-A" />
+             </transforms:biex>
+           </Transforms>
+         </Transforms>
+       </TransformStore>
+     </Cytometer>
+   </Cytometers>
+   <Groups>
+     <GroupNode name="All Samples"  annotation=""  owningGroup="All Samples"  expanded="1"  sortPriority="10"  count="-1" >
+       <Graph smoothing="0"  backColor="#ffffff"  foreColor="#000000"  type="Pseudocolor"  fast="1" >
+         <Axis dimension="x"  name=""  label=""  auto="auto" />
+         <Axis dimension="y"  name=""  label=""  auto="auto" />
+         <GraphSettings level="5%"  smoothingHighResolution="1"  contourHighResolution="1"  histogramSmoothingCount="0"  graphResolution="256"  showOutliers="0"  drawLargeDots="0"  dotsToDraw="8000"  tint="le.chartfill.tinted.40"  lineWeight="le.lineweight.normal"  lineStyle="le.linestyle.solid" />
+         <GraphEnvironment showGrid="0"  showAxes="tnlTNL"  showGates="1"  showFreqOnPlots="1"  showGateNameOnPlots="1"  showMedians="0"  showUncomped="0"  addEventParam="0"  lastYAxisName="" >
+           <TextTraits font="SansSerif"  size="11"  name="Labels"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           <TextTraits font="SansSerif"  size="11"  name="LayoutGates"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           <TextTraits font="SansSerif"  size="9"  name="Numbers"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           <TextTraits font="SansSerif"  size="9"  name="Legend"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+         </GraphEnvironment>
+       </Graph>
+       <Group name="All Samples"  live="1"  role="ws.group.dlog.test"  key=""  synchronized="0"  foreground="#000000"  fontStyle="bold" >
+         <Criteria/>
+         <SampleRefs>
+           <SampleRef sampleID="1" />
+           <SampleRef sampleID="2" />
+           <SampleRef sampleID="3" />
+           <SampleRef sampleID="4" />
+         </SampleRefs>
+         <Keywords/>
+       </Group>
+     </GroupNode>
+     <GroupNode name="Compensation"  annotation=""  owningGroup="Compensation"  expanded="1"  sortPriority="10"  count="-1" >
+       <Graph smoothing="0"  backColor="#ffffff"  foreColor="#000000"  type="Pseudocolor"  fast="1" >
+         <Axis dimension="x"  name=""  label=""  auto="auto" />
+         <Axis dimension="y"  name=""  label=""  auto="auto" />
+         <GraphSettings level="5%"  smoothingHighResolution="1"  contourHighResolution="1"  histogramSmoothingCount="0"  graphResolution="256"  showOutliers="0"  drawLargeDots="0"  dotsToDraw="8000"  tint="le.chartfill.tinted.40"  lineWeight="le.lineweight.normal"  lineStyle="le.linestyle.solid" />
+         <GraphEnvironment showGrid="0"  showAxes="tnlTNL"  showGates="1"  showFreqOnPlots="1"  showGateNameOnPlots="1"  showMedians="0"  showUncomped="0"  addEventParam="0"  lastYAxisName="" >
+           <TextTraits font="SansSerif"  size="11"  name="Labels"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           <TextTraits font="SansSerif"  size="11"  name="LayoutGates"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           <TextTraits font="SansSerif"  size="9"  name="Numbers"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           <TextTraits font="SansSerif"  size="9"  name="Legend"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+         </GraphEnvironment>
+       </Graph>
+       <Group name="Compensation"  live="1"  role="ws.group.dlog.compensation"  key=""  synchronized="0"  foreground="#bc1900"  fontStyle="bold" >
+         <Criteria>
+           <Criterion connector="And"  keyword="$FIL"  function="Contains"  value="comp" />
+           <Criterion connector="Or"  keyword="$FIL"  function="Contains"  value="unstained" />
+         </Criteria>
+         <Keywords/>
+       </Group>
+     </GroupNode>
+   </Groups>
+   <SampleList>
+     <Sample>
+       <DataSet uri="file:/Users/Jack/Desktop/TimTutorial/LD1_NS+NS_A01_exp.fcs"  sampleID="1" />
+       <transforms:spilloverMatrix prefix="Comp-"  name="Acquisition-defined"  editable="0"  color="#c0c0c0"  version="FlowJo-10.1"  status="FINALIZED"  transforms:id="9230825b-6ef9-40db-9e9c-16b537575932"  suffix="" >
+         <data-type:parameters>
+           <data-type:parameter data-type:name="Ax700-A" />
+           <data-type:parameter data-type:name="PacBlue-A" />
+           <data-type:parameter data-type:name="PE-TxRed-A" />
+           <data-type:parameter data-type:name="PE-Cy5-A" />
+           <data-type:parameter data-type:name="APC-H7-A" />
+           <data-type:parameter data-type:name="PE-A" />
+           <data-type:parameter data-type:name="Ax488-A" />
+           <data-type:parameter data-type:name="AARD-A" />
+           <data-type:parameter data-type:name="PE-Cy7-A" />
+         </data-type:parameters>
+         <transforms:spillover data-type:parameter="Ax700-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0008647687" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0121002384" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.35113132" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="-0.0017267386" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0008642069" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.1058214903" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PacBlue-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0001186181" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0004735323" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.1684399247" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-TxRed-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0005604773" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000566839" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.5281129479" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0002802337" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.2397827506" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.001177187" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0000561591" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0611182339" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-Cy5-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0777354017" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000173988" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0071503641" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.03019947" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.016183814" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0002580747" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0000172377" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.1208221391" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="APC-H7-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0329275057" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0005141294" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0010171791" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0081361271" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0005093355" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0005093355" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.3972149193" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0003928805" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000567755" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.3762739599" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.1447977275" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0001122504" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0034275143" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0131560434" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="Ax488-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0001802205" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0001803209" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0003611797" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0185536556" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="AARD-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.000706908" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.2408742458" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0009429109" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.001769511" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0003533925" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.000589256" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0037792015" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0003534096" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-Cy7-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0031226997" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0000384491" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0082033724" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0036599841" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0575354397" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0187994316" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0005703121" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.0000380961" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="1" />
+         </transforms:spillover>
+       </transforms:spilloverMatrix>
+       <Transformations>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="FSC-A" />
+         </transforms:linear>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="FSC-H" />
+         </transforms:linear>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="SSC-A" />
+         </transforms:linear>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="AARD-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="APC-H7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Ax488-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Ax647-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Ax700-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-Cy5-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-Cy7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-TxRed-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PacBlue-A" />
+         </transforms:biex>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="96"  gain="1" >
+           <data-type:parameter data-type:name="Time" />
+         </transforms:linear>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-Ax700-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PacBlue-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-TxRed-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-Cy5-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-APC-H7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-Ax488-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-AARD-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-Cy7-A" />
+         </transforms:biex>
+       </Transformations>
+       <Keywords>
+         <Keyword name="$ENDDATA"  value="14022862" />
+         <Keyword name="$BEGINDATA"  value="3711" />
+         <Keyword name="$P14E"  value="0,0" />
+         <Keyword name="$P14G"  value="0.000100959" />
+         <Keyword name="$P14N"  value="Time" />
+         <Keyword name="$P14R"  value="0" />
+         <Keyword name="$P14B"  value="32" />
+         <Keyword name="$P13E"  value="0,0" />
+         <Keyword name="$P13G"  value="1" />
+         <Keyword name="$P13N"  value="PacBlue-A" />
+         <Keyword name="$P13R"  value="262144" />
+         <Keyword name="$P13B"  value="32" />
+         <Keyword name="$P12E"  value="0,0" />
+         <Keyword name="$P12G"  value="1" />
+         <Keyword name="$P12N"  value="PE-TxRed-A" />
+         <Keyword name="$P12R"  value="262144" />
+         <Keyword name="$P12B"  value="32" />
+         <Keyword name="$P11E"  value="0,0" />
+         <Keyword name="$P11G"  value="1" />
+         <Keyword name="$P11N"  value="PE-Cy7-A" />
+         <Keyword name="$P11R"  value="262144" />
+         <Keyword name="$P11B"  value="32" />
+         <Keyword name="$P10E"  value="0,0" />
+         <Keyword name="$P10G"  value="1" />
+         <Keyword name="$P10N"  value="PE-Cy5-A" />
+         <Keyword name="$P10R"  value="262144" />
+         <Keyword name="$P10B"  value="32" />
+         <Keyword name="$P9E"  value="0,0" />
+         <Keyword name="$P9G"  value="1" />
+         <Keyword name="$P9N"  value="PE-A" />
+         <Keyword name="$P9R"  value="262144" />
+         <Keyword name="$P9B"  value="32" />
+         <Keyword name="$P8E"  value="0,0" />
+         <Keyword name="$P8G"  value="1" />
+         <Keyword name="$P8N"  value="Ax700-A" />
+         <Keyword name="$P8R"  value="262144" />
+         <Keyword name="$P8B"  value="32" />
+         <Keyword name="$P7E"  value="0,0" />
+         <Keyword name="$P7G"  value="1" />
+         <Keyword name="$P7N"  value="Ax647-A" />
+         <Keyword name="$P7R"  value="262144" />
+         <Keyword name="$P7B"  value="32" />
+         <Keyword name="$P6E"  value="0,0" />
+         <Keyword name="$P6G"  value="1" />
+         <Keyword name="$P6N"  value="Ax488-A" />
+         <Keyword name="$P6R"  value="262144" />
+         <Keyword name="$P6B"  value="32" />
+         <Keyword name="$P5E"  value="0,0" />
+         <Keyword name="$P5G"  value="1" />
+         <Keyword name="$P5N"  value="APC-H7-A" />
+         <Keyword name="$P5R"  value="262144" />
+         <Keyword name="$P5B"  value="32" />
+         <Keyword name="$P4E"  value="0,0" />
+         <Keyword name="$P4G"  value="1" />
+         <Keyword name="$P4N"  value="AARD-A" />
+         <Keyword name="$P4R"  value="262144" />
+         <Keyword name="$P4B"  value="32" />
+         <Keyword name="$P3E"  value="0,0" />
+         <Keyword name="$P3G"  value="1" />
+         <Keyword name="$P3N"  value="SSC-A" />
+         <Keyword name="$P3R"  value="262144" />
+         <Keyword name="$P3B"  value="32" />
+         <Keyword name="$P2E"  value="0,0" />
+         <Keyword name="$P2G"  value="1" />
+         <Keyword name="$P2N"  value="FSC-H" />
+         <Keyword name="$P2R"  value="262144" />
+         <Keyword name="$P2B"  value="32" />
+         <Keyword name="$P1E"  value="0,0" />
+         <Keyword name="$P1G"  value="1" />
+         <Keyword name="$P1N"  value="FSC-A" />
+         <Keyword name="$P1R"  value="262144" />
+         <Keyword name="$P1B"  value="32" />
+         <Keyword name="$P14D"  value="LIN,0.000000,96.000000" />
+         <Keyword name="$P13D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P12D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P11D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P10D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P9D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P8D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P7D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P6D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P5D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P4D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P3D"  value="LIN,0.000000,262144.000000" />
+         <Keyword name="$P2D"  value="LIN,0.000000,262144.000000" />
+         <Keyword name="$P14S|$P1D"  value="LIN,0.000000,262144.000000" />
+         <Keyword name="$P13S"  value="CD8" />
+         <Keyword name="$P12S"  value="CD4" />
+         <Keyword name="$P11S"  value="IFNg" />
+         <Keyword name="$P10S"  value="CD38" />
+         <Keyword name="$P9S"  value="Perforin" />
+         <Keyword name="$P8S"  value="CD3" />
+         <Keyword name="$P7S"  value="Blank" />
+         <Keyword name="$P6S"  value="p-ERK1_2" />
+         <Keyword name="$P5S"  value="HLA-DR" />
+         <Keyword name="$P1S|$P2S|$P3S|$P4S"  value="Dead" />
+         <Keyword name="$SPILLOVER"  value="9,Ax700-A,PacBlue-A,PE-TxRed-A,PE-Cy5-A,APC-H7-A,PE-A,Ax488-A,AARD-A,PE-Cy7-A,1.0,-8.647687E-4,0.0,0.012100238,0.3511313184,-0.0017267387,8.642069E-4,0.0,0.1058214876,0.0,1.0,0.0,0.0,0.0,1.186181E-4,4.735323E-4,0.1684399268,0.0,5.604773E-4,5.66839E-5,1.0,0.5281129244,2.802337E-4,0.2397827464,0.001177187,5.61591E-5,0.0611182327,0.0777354037,1.73988E-5,0.007150364,1.0,0.0301994709,0.0161838144,2.580747E-4,1.72377E-5,0.1208221398,0.0329275047,5.141294E-4,0.0010171791,0.0081361274,1.0,5.093355E-4,0.0,5.093355E-4,0.3972149047,3.928805E-4,5.67755E-5,0.3762739575,0.1447977263,1.122504E-4,1.0,0.0034275144,0.0,0.0131560436,1.802205E-4,0.0,1.803209E-4,0.0,0.0,3.611797E-4,1.0,0.0185536554,0.0,7.06908E-4,0.2408742488,9.429109E-4,0.001769511,3.533925E-4,5.89256E-4,0.0037792015,1.0,3.534096E-4,0.0031226997,-3.84491E-5,0.0082033723,0.0036599842,0.0575354391,0.0187994312,5.703121E-4,-3.80961E-5,1.0" />
+         <Keyword name="FJ_FCS_VERSION"  value="3" />
+         <Keyword name="$BEGINANALYSIS"  value="0" />
+         <Keyword name="$ENDANALYSIS"  value="0" />
+         <Keyword name="$BEGINSTEXT"  value="0" />
+         <Keyword name="$ENDSTEXT"  value="0" />
+         <Keyword name="$SYS"  value="Windows XP 5.1" />
+         <Keyword name="$MODE"  value="L" />
+         <Keyword name="$NEXTDATA"  value="0" />
+         <Keyword name="CREATOR"  value="BD FACSDiva Software Version 6.2" />
+         <Keyword name="TUBE NAME"  value="NS+NS" />
+         <Keyword name="$SRC"  value="LD1" />
+         <Keyword name="EXPERIMENT NAME"  value="20120116 PFICS TQC" />
+         <Keyword name="GUID"  value="df526c9f-60fc-4acd-a290-5e91f1b7b621" />
+         <Keyword name="$DATE"  value="18-JAN-2013" />
+         <Keyword name="$BTIM"  value="08:58:42" />
+         <Keyword name="$ETIM"  value="09:00:18" />
+         <Keyword name="$CYT"  value="LSRII" />
+         <Keyword name="CYTNUM"  value="H64779500001" />
+         <Keyword name="WINDOW EXTENSION"  value="10.00" />
+         <Keyword name="EXPORT USER NAME"  value="tqcrawford" />
+         <Keyword name="EXPORT TIME"  value="18-JAN-2013-10:03:26" />
+         <Keyword name="$OP"  value="tqcrawford" />
+         <Keyword name="FSC ASF"  value="0.72" />
+         <Keyword name="AUTOBS"  value="TRUE" />
+         <Keyword name="$INST"  value="University of Hawaii" />
+         <Keyword name="LASER1NAME"  value="Red" />
+         <Keyword name="LASER1DELAY"  value="45.50" />
+         <Keyword name="LASER1ASF"  value="0.76" />
+         <Keyword name="LASER2NAME"  value="Blue" />
+         <Keyword name="LASER2DELAY"  value="0.00" />
+         <Keyword name="LASER2ASF"  value="0.75" />
+         <Keyword name="LASER3NAME"  value="Violet" />
+         <Keyword name="LASER3DELAY"  value="21.21" />
+         <Keyword name="LASER3ASF"  value="0.75" />
+         <Keyword name="LASER4NAME"  value="Yel_Gr" />
+         <Keyword name="LASER4DELAY"  value="63.69" />
+         <Keyword name="LASER4ASF"  value="0.72" />
+         <Keyword name="PLATE NAME"  value="20120116 PFICS TQC" />
+         <Keyword name="WELL ID"  value="A01" />
+         <Keyword name="PLATE ID"  value="cd9353c6-d77c-4005-9772-0659d6698265" />
+         <Keyword name="$TIMESTEP"  value="0.01" />
+         <Keyword name="THRESHOLD"  value="FSC,30000" />
+         <Keyword name="CST SETUP STATUS"  value="SUCCESS" />
+         <Keyword name="CST BEADS LOT ID"  value="10705" />
+         <Keyword name="CYTOMETER CONFIG NAME"  value="20110829 EJ" />
+         <Keyword name="CYTOMETER CONFIG CREATE DATE"  value="08_29_2011 02:21:55 PM" />
+         <Keyword name="CST SETUP DATE"  value="11_08_2011 02:23:52 PM" />
+         <Keyword name="CST BASELINE DATE"  value="08_29_2011 02:50:20 PM" />
+         <Keyword name="*PID"  value="LD1" />
+         <Keyword name="*SAMPLEID"  value="LD1" />
+         <Keyword name="*STIM"  value="NS+NS" />
+         <Keyword name="*Condition"  value="1" />
+         <Keyword name="*TDATE"  value="01_16_13" />
+         <Keyword name="*DDATE"  value="01_14_13" />
+         <Keyword name="*HIV Status"  value="Neg" />
+         <Keyword name="$DATATYPE"  value="F" />
+         <Keyword name="$BYTEORD"  value="4,3,2,1" />
+         <Keyword name="$PAR"  value="14" />
+         <Keyword name="$TOT"  value="250342" />
+         <Keyword name="$FIL"  value="LD1_NS+NS_A01_exp.fcs" />
+         <Keyword name="$P1S"  value="" />
+         <Keyword name="$P2S"  value="" />
+         <Keyword name="$P3S"  value="" />
+         <Keyword name="$P4S"  value="" />
+         <Keyword name="$P14S"  value="" />
+         <Keyword name="$P15N"  value="Comp-Ax700-A" />
+         <Keyword name="$P15S"  value="CD3" />
+         <Keyword name="$P15R"  value="262144" />
+         <Keyword name="$P16N"  value="Comp-PacBlue-A" />
+         <Keyword name="$P16S"  value="CD8" />
+         <Keyword name="$P16R"  value="262144" />
+         <Keyword name="$P17N"  value="Comp-PE-TxRed-A" />
+         <Keyword name="$P17S"  value="CD4" />
+         <Keyword name="$P17R"  value="262144" />
+         <Keyword name="$P18N"  value="Comp-PE-Cy5-A" />
+         <Keyword name="$P18S"  value="CD38" />
+         <Keyword name="$P18R"  value="262144" />
+         <Keyword name="$P19N"  value="Comp-APC-H7-A" />
+         <Keyword name="$P19S"  value="HLA-DR" />
+         <Keyword name="$P19R"  value="262144" />
+         <Keyword name="$P20N"  value="Comp-PE-A" />
+         <Keyword name="$P20S"  value="Perforin" />
+         <Keyword name="$P20R"  value="262144" />
+         <Keyword name="$P21N"  value="Comp-Ax488-A" />
+         <Keyword name="$P21S"  value="p-ERK1_2" />
+         <Keyword name="$P21R"  value="262144" />
+         <Keyword name="$P22N"  value="Comp-AARD-A" />
+         <Keyword name="$P22S"  value="" />
+         <Keyword name="$P22R"  value="262144" />
+         <Keyword name="$P23N"  value="Comp-PE-Cy7-A" />
+         <Keyword name="$P23S"  value="IFNg" />
+         <Keyword name="$P23R"  value="262144" />
+       </Keywords>
+       <SampleNode name="LD1_NS+NS_A01_exp.fcs"  annotation=""  owningGroup=""  expanded="1"  sortPriority="10"  count="250342"  sampleID="1" >
+         <Graph smoothing="0"  backColor="#ffffff"  foreColor="#000000"  type="Pseudocolor"  fast="1" >
+           <Axis dimension="x"  name="FSC-A"  label=""  auto="auto" />
+           <Axis dimension="y"  name="SSC-A"  label=""  auto="auto" />
+           <GraphSettings level="5%"  smoothingHighResolution="1"  contourHighResolution="1"  histogramSmoothingCount="0"  graphResolution="256"  showOutliers="0"  drawLargeDots="0"  dotsToDraw="8000"  tint="le.chartfill.tinted.40"  lineWeight="le.lineweight.normal"  lineStyle="le.linestyle.solid" />
+           <GraphEnvironment showGrid="0"  showAxes="tnlTNL"  showGates="1"  showFreqOnPlots="1"  showGateNameOnPlots="1"  showMedians="0"  showUncomped="0"  addEventParam="0"  lastYAxisName="" >
+             <TextTraits font="SansSerif"  size="11"  name="Labels"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="11"  name="LayoutGates"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="9"  name="Numbers"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="9"  name="Legend"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           </GraphEnvironment>
+         </Graph>
+         <Subpopulations/>
+       </SampleNode>
+     </Sample>
+     <Sample>
+       <DataSet uri="file:/Users/Jack/Desktop/TimTutorial/LD1_PI+NS_B01_exp.fcs"  sampleID="3" />
+       <transforms:spilloverMatrix prefix="Comp-"  name="Acquisition-defined"  editable="0"  color="#c0c0c0"  version="FlowJo-10.1"  status="FINALIZED"  transforms:id="9230825b-6ef9-40db-9e9c-16b537575932"  suffix="" >
+         <data-type:parameters>
+           <data-type:parameter data-type:name="Ax700-A" />
+           <data-type:parameter data-type:name="PacBlue-A" />
+           <data-type:parameter data-type:name="PE-TxRed-A" />
+           <data-type:parameter data-type:name="PE-Cy5-A" />
+           <data-type:parameter data-type:name="APC-H7-A" />
+           <data-type:parameter data-type:name="PE-A" />
+           <data-type:parameter data-type:name="Ax488-A" />
+           <data-type:parameter data-type:name="AARD-A" />
+           <data-type:parameter data-type:name="PE-Cy7-A" />
+         </data-type:parameters>
+         <transforms:spillover data-type:parameter="Ax700-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0008647687" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0121002384" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.35113132" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="-0.0017267386" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0008642069" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.1058214903" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PacBlue-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0001186181" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0004735323" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.1684399247" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-TxRed-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0005604773" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000566839" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.5281129479" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0002802337" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.2397827506" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.001177187" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0000561591" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0611182339" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-Cy5-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0777354017" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000173988" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0071503641" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.03019947" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.016183814" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0002580747" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0000172377" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.1208221391" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="APC-H7-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0329275057" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0005141294" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0010171791" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0081361271" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0005093355" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0005093355" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.3972149193" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0003928805" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000567755" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.3762739599" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.1447977275" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0001122504" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0034275143" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0131560434" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="Ax488-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0001802205" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0001803209" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0003611797" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0185536556" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="AARD-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.000706908" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.2408742458" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0009429109" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.001769511" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0003533925" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.000589256" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0037792015" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0003534096" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-Cy7-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0031226997" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0000384491" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0082033724" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0036599841" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0575354397" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0187994316" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0005703121" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.0000380961" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="1" />
+         </transforms:spillover>
+       </transforms:spilloverMatrix>
+       <Transformations>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="FSC-A" />
+         </transforms:linear>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="FSC-H" />
+         </transforms:linear>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="SSC-A" />
+         </transforms:linear>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="AARD-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="APC-H7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Ax488-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Ax647-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Ax700-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-Cy5-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-Cy7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-TxRed-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PacBlue-A" />
+         </transforms:biex>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="96"  gain="1" >
+           <data-type:parameter data-type:name="Time" />
+         </transforms:linear>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-Ax700-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PacBlue-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-TxRed-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-Cy5-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-APC-H7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-Ax488-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-AARD-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-Cy7-A" />
+         </transforms:biex>
+       </Transformations>
+       <Keywords>
+         <Keyword name="$ENDDATA"  value="14719054" />
+         <Keyword name="$BEGINDATA"  value="3711" />
+         <Keyword name="$P14E"  value="0,0" />
+         <Keyword name="$P14G"  value="0.000101015" />
+         <Keyword name="$P14N"  value="Time" />
+         <Keyword name="$P14R"  value="0" />
+         <Keyword name="$P14B"  value="32" />
+         <Keyword name="$P13E"  value="0,0" />
+         <Keyword name="$P13G"  value="1" />
+         <Keyword name="$P13N"  value="PacBlue-A" />
+         <Keyword name="$P13R"  value="262144" />
+         <Keyword name="$P13B"  value="32" />
+         <Keyword name="$P12E"  value="0,0" />
+         <Keyword name="$P12G"  value="1" />
+         <Keyword name="$P12N"  value="PE-TxRed-A" />
+         <Keyword name="$P12R"  value="262144" />
+         <Keyword name="$P12B"  value="32" />
+         <Keyword name="$P11E"  value="0,0" />
+         <Keyword name="$P11G"  value="1" />
+         <Keyword name="$P11N"  value="PE-Cy7-A" />
+         <Keyword name="$P11R"  value="262144" />
+         <Keyword name="$P11B"  value="32" />
+         <Keyword name="$P10E"  value="0,0" />
+         <Keyword name="$P10G"  value="1" />
+         <Keyword name="$P10N"  value="PE-Cy5-A" />
+         <Keyword name="$P10R"  value="262144" />
+         <Keyword name="$P10B"  value="32" />
+         <Keyword name="$P9E"  value="0,0" />
+         <Keyword name="$P9G"  value="1" />
+         <Keyword name="$P9N"  value="PE-A" />
+         <Keyword name="$P9R"  value="262144" />
+         <Keyword name="$P9B"  value="32" />
+         <Keyword name="$P8E"  value="0,0" />
+         <Keyword name="$P8G"  value="1" />
+         <Keyword name="$P8N"  value="Ax700-A" />
+         <Keyword name="$P8R"  value="262144" />
+         <Keyword name="$P8B"  value="32" />
+         <Keyword name="$P7E"  value="0,0" />
+         <Keyword name="$P7G"  value="1" />
+         <Keyword name="$P7N"  value="Ax647-A" />
+         <Keyword name="$P7R"  value="262144" />
+         <Keyword name="$P7B"  value="32" />
+         <Keyword name="$P6E"  value="0,0" />
+         <Keyword name="$P6G"  value="1" />
+         <Keyword name="$P6N"  value="Ax488-A" />
+         <Keyword name="$P6R"  value="262144" />
+         <Keyword name="$P6B"  value="32" />
+         <Keyword name="$P5E"  value="0,0" />
+         <Keyword name="$P5G"  value="1" />
+         <Keyword name="$P5N"  value="APC-H7-A" />
+         <Keyword name="$P5R"  value="262144" />
+         <Keyword name="$P5B"  value="32" />
+         <Keyword name="$P4E"  value="0,0" />
+         <Keyword name="$P4G"  value="1" />
+         <Keyword name="$P4N"  value="AARD-A" />
+         <Keyword name="$P4R"  value="262144" />
+         <Keyword name="$P4B"  value="32" />
+         <Keyword name="$P3E"  value="0,0" />
+         <Keyword name="$P3G"  value="1" />
+         <Keyword name="$P3N"  value="SSC-A" />
+         <Keyword name="$P3R"  value="262144" />
+         <Keyword name="$P3B"  value="32" />
+         <Keyword name="$P2E"  value="0,0" />
+         <Keyword name="$P2G"  value="1" />
+         <Keyword name="$P2N"  value="FSC-H" />
+         <Keyword name="$P2R"  value="262144" />
+         <Keyword name="$P2B"  value="32" />
+         <Keyword name="$P1E"  value="0,0" />
+         <Keyword name="$P1G"  value="1" />
+         <Keyword name="$P1N"  value="FSC-A" />
+         <Keyword name="$P1R"  value="262144" />
+         <Keyword name="$P1B"  value="32" />
+         <Keyword name="$P14D"  value="LIN,0.000000,96.000000" />
+         <Keyword name="$P13D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P12D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P11D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P10D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P9D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P8D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P7D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P6D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P5D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P4D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P3D"  value="LIN,0.000000,262144.000000" />
+         <Keyword name="$P2D"  value="LIN,0.000000,262144.000000" />
+         <Keyword name="$P14S|$P1D"  value="LIN,0.000000,262144.000000" />
+         <Keyword name="$P13S"  value="CD8" />
+         <Keyword name="$P12S"  value="CD4" />
+         <Keyword name="$P11S"  value="IFNg" />
+         <Keyword name="$P10S"  value="CD38" />
+         <Keyword name="$P9S"  value="Perforin" />
+         <Keyword name="$P8S"  value="CD3" />
+         <Keyword name="$P7S"  value="Blank" />
+         <Keyword name="$P6S"  value="p-ERK1_2" />
+         <Keyword name="$P5S"  value="HLA-DR" />
+         <Keyword name="$P1S|$P2S|$P3S|$P4S"  value="Dead" />
+         <Keyword name="$SPILLOVER"  value="9,Ax700-A,PacBlue-A,PE-TxRed-A,PE-Cy5-A,APC-H7-A,PE-A,Ax488-A,AARD-A,PE-Cy7-A,1.0,-8.647687E-4,0.0,0.012100238,0.3511313184,-0.0017267387,8.642069E-4,0.0,0.1058214876,0.0,1.0,0.0,0.0,0.0,1.186181E-4,4.735323E-4,0.1684399268,0.0,5.604773E-4,5.66839E-5,1.0,0.5281129244,2.802337E-4,0.2397827464,0.001177187,5.61591E-5,0.0611182327,0.0777354037,1.73988E-5,0.007150364,1.0,0.0301994709,0.0161838144,2.580747E-4,1.72377E-5,0.1208221398,0.0329275047,5.141294E-4,0.0010171791,0.0081361274,1.0,5.093355E-4,0.0,5.093355E-4,0.3972149047,3.928805E-4,5.67755E-5,0.3762739575,0.1447977263,1.122504E-4,1.0,0.0034275144,0.0,0.0131560436,1.802205E-4,0.0,1.803209E-4,0.0,0.0,3.611797E-4,1.0,0.0185536554,0.0,7.06908E-4,0.2408742488,9.429109E-4,0.001769511,3.533925E-4,5.89256E-4,0.0037792015,1.0,3.534096E-4,0.0031226997,-3.84491E-5,0.0082033723,0.0036599842,0.0575354391,0.0187994312,5.703121E-4,-3.80961E-5,1.0" />
+         <Keyword name="FJ_FCS_VERSION"  value="3" />
+         <Keyword name="$BEGINANALYSIS"  value="0" />
+         <Keyword name="$ENDANALYSIS"  value="0" />
+         <Keyword name="$BEGINSTEXT"  value="0" />
+         <Keyword name="$ENDSTEXT"  value="0" />
+         <Keyword name="$SYS"  value="Windows XP 5.1" />
+         <Keyword name="$MODE"  value="L" />
+         <Keyword name="$NEXTDATA"  value="0" />
+         <Keyword name="CREATOR"  value="BD FACSDiva Software Version 6.2" />
+         <Keyword name="TUBE NAME"  value="PI+NS" />
+         <Keyword name="$SRC"  value="LD1" />
+         <Keyword name="EXPERIMENT NAME"  value="20120116 PFICS TQC" />
+         <Keyword name="GUID"  value="f173fde4-11c9-4fc4-9df4-0a4d6023930b" />
+         <Keyword name="$DATE"  value="18-JAN-2013" />
+         <Keyword name="$BTIM"  value="09:00:35" />
+         <Keyword name="$ETIM"  value="09:02:11" />
+         <Keyword name="$CYT"  value="LSRII" />
+         <Keyword name="CYTNUM"  value="H64779500001" />
+         <Keyword name="WINDOW EXTENSION"  value="10.00" />
+         <Keyword name="EXPORT USER NAME"  value="tqcrawford" />
+         <Keyword name="EXPORT TIME"  value="18-JAN-2013-10:03:27" />
+         <Keyword name="$OP"  value="tqcrawford" />
+         <Keyword name="FSC ASF"  value="0.72" />
+         <Keyword name="AUTOBS"  value="TRUE" />
+         <Keyword name="$INST"  value="University of Hawaii" />
+         <Keyword name="LASER1NAME"  value="Red" />
+         <Keyword name="LASER1DELAY"  value="45.50" />
+         <Keyword name="LASER1ASF"  value="0.76" />
+         <Keyword name="LASER2NAME"  value="Blue" />
+         <Keyword name="LASER2DELAY"  value="0.00" />
+         <Keyword name="LASER2ASF"  value="0.75" />
+         <Keyword name="LASER3NAME"  value="Violet" />
+         <Keyword name="LASER3DELAY"  value="21.21" />
+         <Keyword name="LASER3ASF"  value="0.75" />
+         <Keyword name="LASER4NAME"  value="Yel_Gr" />
+         <Keyword name="LASER4DELAY"  value="63.69" />
+         <Keyword name="LASER4ASF"  value="0.72" />
+         <Keyword name="PLATE NAME"  value="20120116 PFICS TQC" />
+         <Keyword name="WELL ID"  value="B01" />
+         <Keyword name="PLATE ID"  value="cd9353c6-d77c-4005-9772-0659d6698265" />
+         <Keyword name="$TIMESTEP"  value="0.01" />
+         <Keyword name="THRESHOLD"  value="FSC,30000" />
+         <Keyword name="CST SETUP STATUS"  value="SUCCESS" />
+         <Keyword name="CST BEADS LOT ID"  value="10705" />
+         <Keyword name="CYTOMETER CONFIG NAME"  value="20110829 EJ" />
+         <Keyword name="CYTOMETER CONFIG CREATE DATE"  value="08_29_2011 02:21:55 PM" />
+         <Keyword name="CST SETUP DATE"  value="11_08_2011 02:23:52 PM" />
+         <Keyword name="CST BASELINE DATE"  value="08_29_2011 02:50:20 PM" />
+         <Keyword name="*PID"  value="LD1" />
+         <Keyword name="*SAMPLEID"  value="LD1" />
+         <Keyword name="*STIM"  value="PI+NS" />
+         <Keyword name="*Condition"  value="2" />
+         <Keyword name="*TDATE"  value="01_16_13" />
+         <Keyword name="*DDATE"  value="01_14_13" />
+         <Keyword name="*HIV Status"  value="Neg" />
+         <Keyword name="$DATATYPE"  value="F" />
+         <Keyword name="$BYTEORD"  value="4,3,2,1" />
+         <Keyword name="$PAR"  value="14" />
+         <Keyword name="$TOT"  value="262774" />
+         <Keyword name="$FIL"  value="LD1_PI+NS_B01_exp.fcs" />
+         <Keyword name="$P1S"  value="" />
+         <Keyword name="$P2S"  value="" />
+         <Keyword name="$P3S"  value="" />
+         <Keyword name="$P4S"  value="" />
+         <Keyword name="$P14S"  value="" />
+         <Keyword name="$P15N"  value="Comp-Ax700-A" />
+         <Keyword name="$P15S"  value="CD3" />
+         <Keyword name="$P15R"  value="262144" />
+         <Keyword name="$P16N"  value="Comp-PacBlue-A" />
+         <Keyword name="$P16S"  value="CD8" />
+         <Keyword name="$P16R"  value="262144" />
+         <Keyword name="$P17N"  value="Comp-PE-TxRed-A" />
+         <Keyword name="$P17S"  value="CD4" />
+         <Keyword name="$P17R"  value="262144" />
+         <Keyword name="$P18N"  value="Comp-PE-Cy5-A" />
+         <Keyword name="$P18S"  value="CD38" />
+         <Keyword name="$P18R"  value="262144" />
+         <Keyword name="$P19N"  value="Comp-APC-H7-A" />
+         <Keyword name="$P19S"  value="HLA-DR" />
+         <Keyword name="$P19R"  value="262144" />
+         <Keyword name="$P20N"  value="Comp-PE-A" />
+         <Keyword name="$P20S"  value="Perforin" />
+         <Keyword name="$P20R"  value="262144" />
+         <Keyword name="$P21N"  value="Comp-Ax488-A" />
+         <Keyword name="$P21S"  value="p-ERK1_2" />
+         <Keyword name="$P21R"  value="262144" />
+         <Keyword name="$P22N"  value="Comp-AARD-A" />
+         <Keyword name="$P22S"  value="" />
+         <Keyword name="$P22R"  value="262144" />
+         <Keyword name="$P23N"  value="Comp-PE-Cy7-A" />
+         <Keyword name="$P23S"  value="IFNg" />
+         <Keyword name="$P23R"  value="262144" />
+       </Keywords>
+       <SampleNode name="LD1_PI+NS_B01_exp.fcs"  annotation=""  owningGroup=""  expanded="1"  sortPriority="10"  count="262774"  sampleID="3" >
+         <Graph smoothing="0"  backColor="#ffffff"  foreColor="#000000"  type="Pseudocolor"  fast="1" >
+           <Axis dimension="x"  name="FSC-A"  label=""  auto="auto" />
+           <Axis dimension="y"  name="SSC-A"  label=""  auto="auto" />
+           <GraphSettings level="5%"  smoothingHighResolution="1"  contourHighResolution="1"  histogramSmoothingCount="0"  graphResolution="256"  showOutliers="0"  drawLargeDots="0"  dotsToDraw="8000"  tint="le.chartfill.tinted.40"  lineWeight="le.lineweight.normal"  lineStyle="le.linestyle.solid" />
+           <GraphEnvironment showGrid="0"  showAxes="tnlTNL"  showGates="1"  showFreqOnPlots="1"  showGateNameOnPlots="1"  showMedians="0"  showUncomped="0"  addEventParam="0"  lastYAxisName="" >
+             <TextTraits font="SansSerif"  size="11"  name="Labels"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="11"  name="LayoutGates"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="9"  name="Numbers"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="9"  name="Legend"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           </GraphEnvironment>
+         </Graph>
+         <Subpopulations/>
+       </SampleNode>
+     </Sample>
+     <Sample>
+       <DataSet uri="file:/Users/Jack/Desktop/TimTutorial/LD1_PI+PI_D01_exp.fcs"  sampleID="4" />
+       <transforms:spilloverMatrix prefix="Comp-"  name="Acquisition-defined"  editable="0"  color="#c0c0c0"  version="FlowJo-10.1"  status="FINALIZED"  transforms:id="9230825b-6ef9-40db-9e9c-16b537575932"  suffix="" >
+         <data-type:parameters>
+           <data-type:parameter data-type:name="Ax700-A" />
+           <data-type:parameter data-type:name="PacBlue-A" />
+           <data-type:parameter data-type:name="PE-TxRed-A" />
+           <data-type:parameter data-type:name="PE-Cy5-A" />
+           <data-type:parameter data-type:name="APC-H7-A" />
+           <data-type:parameter data-type:name="PE-A" />
+           <data-type:parameter data-type:name="Ax488-A" />
+           <data-type:parameter data-type:name="AARD-A" />
+           <data-type:parameter data-type:name="PE-Cy7-A" />
+         </data-type:parameters>
+         <transforms:spillover data-type:parameter="Ax700-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0008647687" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0121002384" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.35113132" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="-0.0017267386" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0008642069" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.1058214903" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PacBlue-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0001186181" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0004735323" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.1684399247" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-TxRed-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0005604773" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000566839" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.5281129479" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0002802337" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.2397827506" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.001177187" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0000561591" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0611182339" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-Cy5-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0777354017" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000173988" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0071503641" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.03019947" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.016183814" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0002580747" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0000172377" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.1208221391" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="APC-H7-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0329275057" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0005141294" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0010171791" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0081361271" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0005093355" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0005093355" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.3972149193" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0003928805" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000567755" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.3762739599" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.1447977275" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0001122504" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0034275143" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0131560434" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="Ax488-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0001802205" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0001803209" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0003611797" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0185536556" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="AARD-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.000706908" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.2408742458" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0009429109" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.001769511" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0003533925" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.000589256" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0037792015" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0003534096" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-Cy7-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0031226997" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0000384491" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0082033724" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0036599841" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0575354397" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0187994316" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0005703121" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.0000380961" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="1" />
+         </transforms:spillover>
+       </transforms:spilloverMatrix>
+       <Transformations>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="FSC-A" />
+         </transforms:linear>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="FSC-H" />
+         </transforms:linear>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="SSC-A" />
+         </transforms:linear>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="AARD-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="APC-H7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Ax488-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Ax647-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Ax700-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-Cy5-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-Cy7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-TxRed-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PacBlue-A" />
+         </transforms:biex>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="95"  gain="1" >
+           <data-type:parameter data-type:name="Time" />
+         </transforms:linear>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-Ax700-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PacBlue-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-TxRed-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-Cy5-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-APC-H7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-Ax488-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-AARD-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-Cy7-A" />
+         </transforms:biex>
+       </Transformations>
+       <Keywords>
+         <Keyword name="$ENDDATA"  value="13722422" />
+         <Keyword name="$BEGINDATA"  value="3711" />
+         <Keyword name="$P14E"  value="0,0" />
+         <Keyword name="$P14G"  value="9.99527e-05" />
+         <Keyword name="$P14N"  value="Time" />
+         <Keyword name="$P14R"  value="0" />
+         <Keyword name="$P14B"  value="32" />
+         <Keyword name="$P13E"  value="0,0" />
+         <Keyword name="$P13G"  value="1" />
+         <Keyword name="$P13N"  value="PacBlue-A" />
+         <Keyword name="$P13R"  value="262144" />
+         <Keyword name="$P13B"  value="32" />
+         <Keyword name="$P12E"  value="0,0" />
+         <Keyword name="$P12G"  value="1" />
+         <Keyword name="$P12N"  value="PE-TxRed-A" />
+         <Keyword name="$P12R"  value="262144" />
+         <Keyword name="$P12B"  value="32" />
+         <Keyword name="$P11E"  value="0,0" />
+         <Keyword name="$P11G"  value="1" />
+         <Keyword name="$P11N"  value="PE-Cy7-A" />
+         <Keyword name="$P11R"  value="262144" />
+         <Keyword name="$P11B"  value="32" />
+         <Keyword name="$P10E"  value="0,0" />
+         <Keyword name="$P10G"  value="1" />
+         <Keyword name="$P10N"  value="PE-Cy5-A" />
+         <Keyword name="$P10R"  value="262144" />
+         <Keyword name="$P10B"  value="32" />
+         <Keyword name="$P9E"  value="0,0" />
+         <Keyword name="$P9G"  value="1" />
+         <Keyword name="$P9N"  value="PE-A" />
+         <Keyword name="$P9R"  value="262144" />
+         <Keyword name="$P9B"  value="32" />
+         <Keyword name="$P8E"  value="0,0" />
+         <Keyword name="$P8G"  value="1" />
+         <Keyword name="$P8N"  value="Ax700-A" />
+         <Keyword name="$P8R"  value="262144" />
+         <Keyword name="$P8B"  value="32" />
+         <Keyword name="$P7E"  value="0,0" />
+         <Keyword name="$P7G"  value="1" />
+         <Keyword name="$P7N"  value="Ax647-A" />
+         <Keyword name="$P7R"  value="262144" />
+         <Keyword name="$P7B"  value="32" />
+         <Keyword name="$P6E"  value="0,0" />
+         <Keyword name="$P6G"  value="1" />
+         <Keyword name="$P6N"  value="Ax488-A" />
+         <Keyword name="$P6R"  value="262144" />
+         <Keyword name="$P6B"  value="32" />
+         <Keyword name="$P5E"  value="0,0" />
+         <Keyword name="$P5G"  value="1" />
+         <Keyword name="$P5N"  value="APC-H7-A" />
+         <Keyword name="$P5R"  value="262144" />
+         <Keyword name="$P5B"  value="32" />
+         <Keyword name="$P4E"  value="0,0" />
+         <Keyword name="$P4G"  value="1" />
+         <Keyword name="$P4N"  value="AARD-A" />
+         <Keyword name="$P4R"  value="262144" />
+         <Keyword name="$P4B"  value="32" />
+         <Keyword name="$P3E"  value="0,0" />
+         <Keyword name="$P3G"  value="1" />
+         <Keyword name="$P3N"  value="SSC-A" />
+         <Keyword name="$P3R"  value="262144" />
+         <Keyword name="$P3B"  value="32" />
+         <Keyword name="$P2E"  value="0,0" />
+         <Keyword name="$P2G"  value="1" />
+         <Keyword name="$P2N"  value="FSC-H" />
+         <Keyword name="$P2R"  value="262144" />
+         <Keyword name="$P2B"  value="32" />
+         <Keyword name="$P1E"  value="0,0" />
+         <Keyword name="$P1G"  value="1" />
+         <Keyword name="$P1N"  value="FSC-A" />
+         <Keyword name="$P1R"  value="262144" />
+         <Keyword name="$P1B"  value="32" />
+         <Keyword name="$P14D"  value="LIN,0.000000,95.000000" />
+         <Keyword name="$P13D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P12D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P11D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P10D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P9D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P8D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P7D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P6D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P5D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P4D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P3D"  value="LIN,0.000000,262144.000000" />
+         <Keyword name="$P2D"  value="LIN,0.000000,262144.000000" />
+         <Keyword name="$P14S|$P1D"  value="LIN,0.000000,262144.000000" />
+         <Keyword name="$P13S"  value="CD8" />
+         <Keyword name="$P12S"  value="CD4" />
+         <Keyword name="$P11S"  value="IFNg" />
+         <Keyword name="$P10S"  value="CD38" />
+         <Keyword name="$P9S"  value="Perforin" />
+         <Keyword name="$P8S"  value="CD3" />
+         <Keyword name="$P7S"  value="Blank" />
+         <Keyword name="$P6S"  value="p-ERK1_2" />
+         <Keyword name="$P5S"  value="HLA-DR" />
+         <Keyword name="$P1S|$P2S|$P3S|$P4S"  value="Dead" />
+         <Keyword name="$SPILLOVER"  value="9,Ax700-A,PacBlue-A,PE-TxRed-A,PE-Cy5-A,APC-H7-A,PE-A,Ax488-A,AARD-A,PE-Cy7-A,1.0,-8.647687E-4,0.0,0.012100238,0.3511313184,-0.0017267387,8.642069E-4,0.0,0.1058214876,0.0,1.0,0.0,0.0,0.0,1.186181E-4,4.735323E-4,0.1684399268,0.0,5.604773E-4,5.66839E-5,1.0,0.5281129244,2.802337E-4,0.2397827464,0.001177187,5.61591E-5,0.0611182327,0.0777354037,1.73988E-5,0.007150364,1.0,0.0301994709,0.0161838144,2.580747E-4,1.72377E-5,0.1208221398,0.0329275047,5.141294E-4,0.0010171791,0.0081361274,1.0,5.093355E-4,0.0,5.093355E-4,0.3972149047,3.928805E-4,5.67755E-5,0.3762739575,0.1447977263,1.122504E-4,1.0,0.0034275144,0.0,0.0131560436,1.802205E-4,0.0,1.803209E-4,0.0,0.0,3.611797E-4,1.0,0.0185536554,0.0,7.06908E-4,0.2408742488,9.429109E-4,0.001769511,3.533925E-4,5.89256E-4,0.0037792015,1.0,3.534096E-4,0.0031226997,-3.84491E-5,0.0082033723,0.0036599842,0.0575354391,0.0187994312,5.703121E-4,-3.80961E-5,1.0" />
+         <Keyword name="FJ_FCS_VERSION"  value="3" />
+         <Keyword name="$BEGINANALYSIS"  value="0" />
+         <Keyword name="$ENDANALYSIS"  value="0" />
+         <Keyword name="$BEGINSTEXT"  value="0" />
+         <Keyword name="$ENDSTEXT"  value="0" />
+         <Keyword name="$SYS"  value="Windows XP 5.1" />
+         <Keyword name="$MODE"  value="L" />
+         <Keyword name="$NEXTDATA"  value="0" />
+         <Keyword name="CREATOR"  value="BD FACSDiva Software Version 6.2" />
+         <Keyword name="TUBE NAME"  value="PI+PI" />
+         <Keyword name="$SRC"  value="LD1" />
+         <Keyword name="EXPERIMENT NAME"  value="20120116 PFICS TQC" />
+         <Keyword name="GUID"  value="2417cfaa-95b3-4fa5-863a-d92fd7f09e88" />
+         <Keyword name="$DATE"  value="18-JAN-2013" />
+         <Keyword name="$BTIM"  value="09:04:23" />
+         <Keyword name="$ETIM"  value="09:05:58" />
+         <Keyword name="$CYT"  value="LSRII" />
+         <Keyword name="CYTNUM"  value="H64779500001" />
+         <Keyword name="WINDOW EXTENSION"  value="10.00" />
+         <Keyword name="EXPORT USER NAME"  value="tqcrawford" />
+         <Keyword name="EXPORT TIME"  value="18-JAN-2013-10:03:29" />
+         <Keyword name="$OP"  value="tqcrawford" />
+         <Keyword name="FSC ASF"  value="0.72" />
+         <Keyword name="AUTOBS"  value="TRUE" />
+         <Keyword name="$INST"  value="University of Hawaii" />
+         <Keyword name="LASER1NAME"  value="Red" />
+         <Keyword name="LASER1DELAY"  value="45.50" />
+         <Keyword name="LASER1ASF"  value="0.76" />
+         <Keyword name="LASER2NAME"  value="Blue" />
+         <Keyword name="LASER2DELAY"  value="0.00" />
+         <Keyword name="LASER2ASF"  value="0.75" />
+         <Keyword name="LASER3NAME"  value="Violet" />
+         <Keyword name="LASER3DELAY"  value="21.21" />
+         <Keyword name="LASER3ASF"  value="0.75" />
+         <Keyword name="LASER4NAME"  value="Yel_Gr" />
+         <Keyword name="LASER4DELAY"  value="63.69" />
+         <Keyword name="LASER4ASF"  value="0.72" />
+         <Keyword name="PLATE NAME"  value="20120116 PFICS TQC" />
+         <Keyword name="WELL ID"  value="D01" />
+         <Keyword name="PLATE ID"  value="cd9353c6-d77c-4005-9772-0659d6698265" />
+         <Keyword name="$TIMESTEP"  value="0.01" />
+         <Keyword name="THRESHOLD"  value="FSC,30000" />
+         <Keyword name="CST SETUP STATUS"  value="SUCCESS" />
+         <Keyword name="CST BEADS LOT ID"  value="10705" />
+         <Keyword name="CYTOMETER CONFIG NAME"  value="20110829 EJ" />
+         <Keyword name="CYTOMETER CONFIG CREATE DATE"  value="08_29_2011 02:21:55 PM" />
+         <Keyword name="CST SETUP DATE"  value="11_08_2011 02:23:52 PM" />
+         <Keyword name="CST BASELINE DATE"  value="08_29_2011 02:50:20 PM" />
+         <Keyword name="*PID"  value="LD1" />
+         <Keyword name="*SAMPLEID"  value="LD1" />
+         <Keyword name="*STIM"  value="PI+PI" />
+         <Keyword name="*Condition"  value="4" />
+         <Keyword name="*TDATE"  value="01_16_13" />
+         <Keyword name="*DDATE"  value="01_14_13" />
+         <Keyword name="*HIV Status"  value="Neg" />
+         <Keyword name="$DATATYPE"  value="F" />
+         <Keyword name="$BYTEORD"  value="4,3,2,1" />
+         <Keyword name="$PAR"  value="14" />
+         <Keyword name="$TOT"  value="244977" />
+         <Keyword name="$FIL"  value="LD1_PI+PI_D01_exp.fcs" />
+         <Keyword name="$P1S"  value="" />
+         <Keyword name="$P2S"  value="" />
+         <Keyword name="$P3S"  value="" />
+         <Keyword name="$P4S"  value="" />
+         <Keyword name="$P14S"  value="" />
+         <Keyword name="$P15N"  value="Comp-Ax700-A" />
+         <Keyword name="$P15S"  value="CD3" />
+         <Keyword name="$P15R"  value="262144" />
+         <Keyword name="$P16N"  value="Comp-PacBlue-A" />
+         <Keyword name="$P16S"  value="CD8" />
+         <Keyword name="$P16R"  value="262144" />
+         <Keyword name="$P17N"  value="Comp-PE-TxRed-A" />
+         <Keyword name="$P17S"  value="CD4" />
+         <Keyword name="$P17R"  value="262144" />
+         <Keyword name="$P18N"  value="Comp-PE-Cy5-A" />
+         <Keyword name="$P18S"  value="CD38" />
+         <Keyword name="$P18R"  value="262144" />
+         <Keyword name="$P19N"  value="Comp-APC-H7-A" />
+         <Keyword name="$P19S"  value="HLA-DR" />
+         <Keyword name="$P19R"  value="262144" />
+         <Keyword name="$P20N"  value="Comp-PE-A" />
+         <Keyword name="$P20S"  value="Perforin" />
+         <Keyword name="$P20R"  value="262144" />
+         <Keyword name="$P21N"  value="Comp-Ax488-A" />
+         <Keyword name="$P21S"  value="p-ERK1_2" />
+         <Keyword name="$P21R"  value="262144" />
+         <Keyword name="$P22N"  value="Comp-AARD-A" />
+         <Keyword name="$P22S"  value="" />
+         <Keyword name="$P22R"  value="262144" />
+         <Keyword name="$P23N"  value="Comp-PE-Cy7-A" />
+         <Keyword name="$P23S"  value="IFNg" />
+         <Keyword name="$P23R"  value="262144" />
+       </Keywords>
+       <SampleNode name="LD1_PI+PI_D01_exp.fcs"  annotation=""  owningGroup=""  expanded="1"  sortPriority="10"  count="244977"  sampleID="4" >
+         <Graph smoothing="0"  backColor="#ffffff"  foreColor="#000000"  type="Pseudocolor"  fast="1" >
+           <Axis dimension="x"  name="FSC-A"  label=""  auto="auto" />
+           <Axis dimension="y"  name="SSC-A"  label=""  auto="auto" />
+           <GraphSettings level="5%"  smoothingHighResolution="1"  contourHighResolution="1"  histogramSmoothingCount="0"  graphResolution="256"  showOutliers="0"  drawLargeDots="0"  dotsToDraw="8000"  tint="le.chartfill.tinted.40"  lineWeight="le.lineweight.normal"  lineStyle="le.linestyle.solid" />
+           <GraphEnvironment showGrid="0"  showAxes="tnlTNL"  showGates="1"  showFreqOnPlots="1"  showGateNameOnPlots="1"  showMedians="0"  showUncomped="0"  addEventParam="0"  lastYAxisName="" >
+             <TextTraits font="SansSerif"  size="11"  name="Labels"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="11"  name="LayoutGates"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="9"  name="Numbers"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="9"  name="Legend"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           </GraphEnvironment>
+         </Graph>
+         <Subpopulations/>
+       </SampleNode>
+     </Sample>
+     <Sample>
+       <DataSet uri="file:/Users/Jack/Desktop/TimTutorial/LD1_NS+PI_C01_exp.fcs"  sampleID="2" />
+       <transforms:spilloverMatrix prefix="Comp-"  name="Acquisition-defined"  editable="0"  color="#c0c0c0"  version="FlowJo-10.1"  status="FINALIZED"  transforms:id="9230825b-6ef9-40db-9e9c-16b537575932"  suffix="" >
+         <data-type:parameters>
+           <data-type:parameter data-type:name="Ax700-A" />
+           <data-type:parameter data-type:name="PacBlue-A" />
+           <data-type:parameter data-type:name="PE-TxRed-A" />
+           <data-type:parameter data-type:name="PE-Cy5-A" />
+           <data-type:parameter data-type:name="APC-H7-A" />
+           <data-type:parameter data-type:name="PE-A" />
+           <data-type:parameter data-type:name="Ax488-A" />
+           <data-type:parameter data-type:name="AARD-A" />
+           <data-type:parameter data-type:name="PE-Cy7-A" />
+         </data-type:parameters>
+         <transforms:spillover data-type:parameter="Ax700-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0008647687" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0121002384" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.35113132" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="-0.0017267386" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0008642069" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.1058214903" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PacBlue-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0001186181" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0004735323" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.1684399247" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-TxRed-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0005604773" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000566839" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.5281129479" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0002802337" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.2397827506" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.001177187" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0000561591" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0611182339" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-Cy5-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0777354017" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000173988" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0071503641" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.03019947" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.016183814" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0002580747" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0000172377" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.1208221391" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="APC-H7-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0329275057" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0005141294" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0010171791" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0081361271" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0005093355" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0005093355" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.3972149193" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0003928805" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.0000567755" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.3762739599" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.1447977275" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0001122504" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0034275143" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0131560434" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="Ax488-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0001802205" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0001803209" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0003611797" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="0.0185536556" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="AARD-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.000706908" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="0.2408742458" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0009429109" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.001769511" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0003533925" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.000589256" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0037792015" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="1" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="0.0003534096" />
+         </transforms:spillover>
+         <transforms:spillover data-type:parameter="PE-Cy7-A" >
+           <transforms:coefficient data-type:parameter="Ax700-A"  transforms:value="0.0031226997" />
+           <transforms:coefficient data-type:parameter="PacBlue-A"  transforms:value="-0.0000384491" />
+           <transforms:coefficient data-type:parameter="PE-TxRed-A"  transforms:value="0.0082033724" />
+           <transforms:coefficient data-type:parameter="PE-Cy5-A"  transforms:value="0.0036599841" />
+           <transforms:coefficient data-type:parameter="APC-H7-A"  transforms:value="0.0575354397" />
+           <transforms:coefficient data-type:parameter="PE-A"  transforms:value="0.0187994316" />
+           <transforms:coefficient data-type:parameter="Ax488-A"  transforms:value="0.0005703121" />
+           <transforms:coefficient data-type:parameter="AARD-A"  transforms:value="-0.0000380961" />
+           <transforms:coefficient data-type:parameter="PE-Cy7-A"  transforms:value="1" />
+         </transforms:spillover>
+       </transforms:spilloverMatrix>
+       <Transformations>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="FSC-A" />
+         </transforms:linear>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="FSC-H" />
+         </transforms:linear>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="262144"  gain="1" >
+           <data-type:parameter data-type:name="SSC-A" />
+         </transforms:linear>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="AARD-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="APC-H7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Ax488-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Ax647-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Ax700-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-Cy5-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-Cy7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PE-TxRed-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="PacBlue-A" />
+         </transforms:biex>
+         <transforms:linear transforms:minRange="0"  transforms:maxRange="95"  gain="1" >
+           <data-type:parameter data-type:name="Time" />
+         </transforms:linear>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-Ax700-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PacBlue-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-TxRed-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-Cy5-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-APC-H7-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-Ax488-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-AARD-A" />
+         </transforms:biex>
+         <transforms:biex transforms:length="256"  transforms:maxRange="262144.0471106734"  transforms:neg="0"  transforms:width="-100"  transforms:pos="4.41854" >
+           <data-type:parameter data-type:name="Comp-PE-Cy7-A" />
+         </transforms:biex>
+       </Transformations>
+       <Keywords>
+         <Keyword name="$ENDDATA"  value="12860469" />
+         <Keyword name="$BEGINDATA"  value="3710" />
+         <Keyword name="$P14E"  value="0,0" />
+         <Keyword name="$P14G"  value="9.9979e-05" />
+         <Keyword name="$P14N"  value="Time" />
+         <Keyword name="$P14R"  value="0" />
+         <Keyword name="$P14B"  value="32" />
+         <Keyword name="$P13E"  value="0,0" />
+         <Keyword name="$P13G"  value="1" />
+         <Keyword name="$P13N"  value="PacBlue-A" />
+         <Keyword name="$P13R"  value="262144" />
+         <Keyword name="$P13B"  value="32" />
+         <Keyword name="$P12E"  value="0,0" />
+         <Keyword name="$P12G"  value="1" />
+         <Keyword name="$P12N"  value="PE-TxRed-A" />
+         <Keyword name="$P12R"  value="262144" />
+         <Keyword name="$P12B"  value="32" />
+         <Keyword name="$P11E"  value="0,0" />
+         <Keyword name="$P11G"  value="1" />
+         <Keyword name="$P11N"  value="PE-Cy7-A" />
+         <Keyword name="$P11R"  value="262144" />
+         <Keyword name="$P11B"  value="32" />
+         <Keyword name="$P10E"  value="0,0" />
+         <Keyword name="$P10G"  value="1" />
+         <Keyword name="$P10N"  value="PE-Cy5-A" />
+         <Keyword name="$P10R"  value="262144" />
+         <Keyword name="$P10B"  value="32" />
+         <Keyword name="$P9E"  value="0,0" />
+         <Keyword name="$P9G"  value="1" />
+         <Keyword name="$P9N"  value="PE-A" />
+         <Keyword name="$P9R"  value="262144" />
+         <Keyword name="$P9B"  value="32" />
+         <Keyword name="$P8E"  value="0,0" />
+         <Keyword name="$P8G"  value="1" />
+         <Keyword name="$P8N"  value="Ax700-A" />
+         <Keyword name="$P8R"  value="262144" />
+         <Keyword name="$P8B"  value="32" />
+         <Keyword name="$P7E"  value="0,0" />
+         <Keyword name="$P7G"  value="1" />
+         <Keyword name="$P7N"  value="Ax647-A" />
+         <Keyword name="$P7R"  value="262144" />
+         <Keyword name="$P7B"  value="32" />
+         <Keyword name="$P6E"  value="0,0" />
+         <Keyword name="$P6G"  value="1" />
+         <Keyword name="$P6N"  value="Ax488-A" />
+         <Keyword name="$P6R"  value="262144" />
+         <Keyword name="$P6B"  value="32" />
+         <Keyword name="$P5E"  value="0,0" />
+         <Keyword name="$P5G"  value="1" />
+         <Keyword name="$P5N"  value="APC-H7-A" />
+         <Keyword name="$P5R"  value="262144" />
+         <Keyword name="$P5B"  value="32" />
+         <Keyword name="$P4E"  value="0,0" />
+         <Keyword name="$P4G"  value="1" />
+         <Keyword name="$P4N"  value="AARD-A" />
+         <Keyword name="$P4R"  value="262144" />
+         <Keyword name="$P4B"  value="32" />
+         <Keyword name="$P3E"  value="0,0" />
+         <Keyword name="$P3G"  value="1" />
+         <Keyword name="$P3N"  value="SSC-A" />
+         <Keyword name="$P3R"  value="262144" />
+         <Keyword name="$P3B"  value="32" />
+         <Keyword name="$P2E"  value="0,0" />
+         <Keyword name="$P2G"  value="1" />
+         <Keyword name="$P2N"  value="FSC-H" />
+         <Keyword name="$P2R"  value="262144" />
+         <Keyword name="$P2B"  value="32" />
+         <Keyword name="$P1E"  value="0,0" />
+         <Keyword name="$P1G"  value="1" />
+         <Keyword name="$P1N"  value="FSC-A" />
+         <Keyword name="$P1R"  value="262144" />
+         <Keyword name="$P1B"  value="32" />
+         <Keyword name="$P14D"  value="LIN,0.000000,95.000000" />
+         <Keyword name="$P13D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P12D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P11D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P10D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P9D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P8D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P7D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P6D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P5D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P4D"  value="BIEX,262144.000029,4.418540,0.000000,-100.000000" />
+         <Keyword name="$P3D"  value="LIN,0.000000,262144.000000" />
+         <Keyword name="$P2D"  value="LIN,0.000000,262144.000000" />
+         <Keyword name="$P14S|$P1D"  value="LIN,0.000000,262144.000000" />
+         <Keyword name="$P13S"  value="CD8" />
+         <Keyword name="$P12S"  value="CD4" />
+         <Keyword name="$P11S"  value="IFNg" />
+         <Keyword name="$P10S"  value="CD38" />
+         <Keyword name="$P9S"  value="Perforin" />
+         <Keyword name="$P8S"  value="CD3" />
+         <Keyword name="$P7S"  value="Blank" />
+         <Keyword name="$P6S"  value="p-ERK1_2" />
+         <Keyword name="$P5S"  value="HLA-DR" />
+         <Keyword name="$P1S|$P2S|$P3S|$P4S"  value="Dead" />
+         <Keyword name="$SPILLOVER"  value="9,Ax700-A,PacBlue-A,PE-TxRed-A,PE-Cy5-A,APC-H7-A,PE-A,Ax488-A,AARD-A,PE-Cy7-A,1.0,-8.647687E-4,0.0,0.012100238,0.3511313184,-0.0017267387,8.642069E-4,0.0,0.1058214876,0.0,1.0,0.0,0.0,0.0,1.186181E-4,4.735323E-4,0.1684399268,0.0,5.604773E-4,5.66839E-5,1.0,0.5281129244,2.802337E-4,0.2397827464,0.001177187,5.61591E-5,0.0611182327,0.0777354037,1.73988E-5,0.007150364,1.0,0.0301994709,0.0161838144,2.580747E-4,1.72377E-5,0.1208221398,0.0329275047,5.141294E-4,0.0010171791,0.0081361274,1.0,5.093355E-4,0.0,5.093355E-4,0.3972149047,3.928805E-4,5.67755E-5,0.3762739575,0.1447977263,1.122504E-4,1.0,0.0034275144,0.0,0.0131560436,1.802205E-4,0.0,1.803209E-4,0.0,0.0,3.611797E-4,1.0,0.0185536554,0.0,7.06908E-4,0.2408742488,9.429109E-4,0.001769511,3.533925E-4,5.89256E-4,0.0037792015,1.0,3.534096E-4,0.0031226997,-3.84491E-5,0.0082033723,0.0036599842,0.0575354391,0.0187994312,5.703121E-4,-3.80961E-5,1.0" />
+         <Keyword name="FJ_FCS_VERSION"  value="3" />
+         <Keyword name="$BEGINANALYSIS"  value="0" />
+         <Keyword name="$ENDANALYSIS"  value="0" />
+         <Keyword name="$BEGINSTEXT"  value="0" />
+         <Keyword name="$ENDSTEXT"  value="0" />
+         <Keyword name="$SYS"  value="Windows XP 5.1" />
+         <Keyword name="$MODE"  value="L" />
+         <Keyword name="$NEXTDATA"  value="0" />
+         <Keyword name="CREATOR"  value="BD FACSDiva Software Version 6.2" />
+         <Keyword name="TUBE NAME"  value="NS+PI" />
+         <Keyword name="$SRC"  value="LD1" />
+         <Keyword name="EXPERIMENT NAME"  value="20120116 PFICS TQC" />
+         <Keyword name="GUID"  value="18974f61-8fba-479f-ae18-519a9ac2ccd2" />
+         <Keyword name="$DATE"  value="18-JAN-2013" />
+         <Keyword name="$BTIM"  value="09:02:29" />
+         <Keyword name="$ETIM"  value="09:04:04" />
+         <Keyword name="$CYT"  value="LSRII" />
+         <Keyword name="CYTNUM"  value="H64779500001" />
+         <Keyword name="WINDOW EXTENSION"  value="10.00" />
+         <Keyword name="EXPORT USER NAME"  value="tqcrawford" />
+         <Keyword name="EXPORT TIME"  value="18-JAN-2013-10:03:28" />
+         <Keyword name="$OP"  value="tqcrawford" />
+         <Keyword name="FSC ASF"  value="0.72" />
+         <Keyword name="AUTOBS"  value="TRUE" />
+         <Keyword name="$INST"  value="University of Hawaii" />
+         <Keyword name="LASER1NAME"  value="Red" />
+         <Keyword name="LASER1DELAY"  value="45.50" />
+         <Keyword name="LASER1ASF"  value="0.76" />
+         <Keyword name="LASER2NAME"  value="Blue" />
+         <Keyword name="LASER2DELAY"  value="0.00" />
+         <Keyword name="LASER2ASF"  value="0.75" />
+         <Keyword name="LASER3NAME"  value="Violet" />
+         <Keyword name="LASER3DELAY"  value="21.21" />
+         <Keyword name="LASER3ASF"  value="0.75" />
+         <Keyword name="LASER4NAME"  value="Yel_Gr" />
+         <Keyword name="LASER4DELAY"  value="63.69" />
+         <Keyword name="LASER4ASF"  value="0.72" />
+         <Keyword name="PLATE NAME"  value="20120116 PFICS TQC" />
+         <Keyword name="WELL ID"  value="C01" />
+         <Keyword name="PLATE ID"  value="cd9353c6-d77c-4005-9772-0659d6698265" />
+         <Keyword name="$TIMESTEP"  value="0.01" />
+         <Keyword name="THRESHOLD"  value="FSC,30000" />
+         <Keyword name="CST SETUP STATUS"  value="SUCCESS" />
+         <Keyword name="CST BEADS LOT ID"  value="10705" />
+         <Keyword name="CYTOMETER CONFIG NAME"  value="20110829 EJ" />
+         <Keyword name="CYTOMETER CONFIG CREATE DATE"  value="08_29_2011 02:21:55 PM" />
+         <Keyword name="CST SETUP DATE"  value="11_08_2011 02:23:52 PM" />
+         <Keyword name="CST BASELINE DATE"  value="08_29_2011 02:50:20 PM" />
+         <Keyword name="*PID"  value="LD1" />
+         <Keyword name="*SAMPLEID"  value="LD1" />
+         <Keyword name="*STIM"  value="NS+PI" />
+         <Keyword name="*Condition"  value="3" />
+         <Keyword name="*TDATE"  value="01_16_13" />
+         <Keyword name="*DDATE"  value="01_14_13" />
+         <Keyword name="*HIV Status"  value="Neg" />
+         <Keyword name="$DATATYPE"  value="F" />
+         <Keyword name="$BYTEORD"  value="4,3,2,1" />
+         <Keyword name="$PAR"  value="14" />
+         <Keyword name="$TOT"  value="229585" />
+         <Keyword name="$FIL"  value="LD1_NS+PI_C01_exp.fcs" />
+         <Keyword name="$P1S"  value="" />
+         <Keyword name="$P2S"  value="" />
+         <Keyword name="$P3S"  value="" />
+         <Keyword name="$P4S"  value="" />
+         <Keyword name="$P14S"  value="" />
+         <Keyword name="$P15N"  value="Comp-Ax700-A" />
+         <Keyword name="$P15S"  value="CD3" />
+         <Keyword name="$P15R"  value="262144" />
+         <Keyword name="$P16N"  value="Comp-PacBlue-A" />
+         <Keyword name="$P16S"  value="CD8" />
+         <Keyword name="$P16R"  value="262144" />
+         <Keyword name="$P17N"  value="Comp-PE-TxRed-A" />
+         <Keyword name="$P17S"  value="CD4" />
+         <Keyword name="$P17R"  value="262144" />
+         <Keyword name="$P18N"  value="Comp-PE-Cy5-A" />
+         <Keyword name="$P18S"  value="CD38" />
+         <Keyword name="$P18R"  value="262144" />
+         <Keyword name="$P19N"  value="Comp-APC-H7-A" />
+         <Keyword name="$P19S"  value="HLA-DR" />
+         <Keyword name="$P19R"  value="262144" />
+         <Keyword name="$P20N"  value="Comp-PE-A" />
+         <Keyword name="$P20S"  value="Perforin" />
+         <Keyword name="$P20R"  value="262144" />
+         <Keyword name="$P21N"  value="Comp-Ax488-A" />
+         <Keyword name="$P21S"  value="p-ERK1_2" />
+         <Keyword name="$P21R"  value="262144" />
+         <Keyword name="$P22N"  value="Comp-AARD-A" />
+         <Keyword name="$P22S"  value="" />
+         <Keyword name="$P22R"  value="262144" />
+         <Keyword name="$P23N"  value="Comp-PE-Cy7-A" />
+         <Keyword name="$P23S"  value="IFNg" />
+         <Keyword name="$P23R"  value="262144" />
+       </Keywords>
+       <SampleNode name="LD1_NS+PI_C01_exp.fcs"  annotation=""  owningGroup=""  expanded="1"  sortPriority="10"  count="229585"  sampleID="2" >
+         <Graph smoothing="0"  backColor="#ffffff"  foreColor="#000000"  type="Pseudocolor"  fast="1" >
+           <Axis dimension="x"  name="FSC-A"  label=""  auto="auto" />
+           <Axis dimension="y"  name="SSC-A"  label=""  auto="auto" />
+           <GraphSettings level="5%"  smoothingHighResolution="1"  contourHighResolution="1"  histogramSmoothingCount="0"  graphResolution="256"  showOutliers="0"  drawLargeDots="0"  dotsToDraw="8000"  tint="le.chartfill.tinted.40"  lineWeight="le.lineweight.normal"  lineStyle="le.linestyle.solid" />
+           <GraphEnvironment showGrid="0"  showAxes="tnlTNL"  showGates="1"  showFreqOnPlots="1"  showGateNameOnPlots="1"  showMedians="0"  showUncomped="0"  addEventParam="0"  lastYAxisName="" >
+             <TextTraits font="SansSerif"  size="11"  name="Labels"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="11"  name="LayoutGates"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="9"  name="Numbers"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+             <TextTraits font="SansSerif"  size="9"  name="Legend"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+           </GraphEnvironment>
+         </Graph>
+         <Subpopulations/>
+       </SampleNode>
+     </Sample>
+   </SampleList>
+   <TableEditor title="FlowJo Tables: 17-Sep-2015"  current="Table" >
+     <Table name="Table"  outputFile="file:/Users/Jack/Table"  color="#00ffffff"  isBatch="0"  quickclose="0"  destination="toDisplay"  outputFormat="fj.document.type.table" >
+       <PrintLayout flipPattern0="0"  rows="1"  columns="1"  padding="36"  header=""  footer=""  headerActive="0"  footerActive="0"  scalingMode="fj.print.scale.none"  scaling="1"  orientation="1"  width="612"  height="792"  imageableX="72"  imageableY="72"  imageableWidth="468"  imageableHeight="648" />
+       <PageSection sectionName="header" >&lt;table width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&amp;NBSP&amp;NBSP&amp;NBSP&amp;NBSP&lt;IMG SRC=&quot;file:/Users/Jack/Downloads/FlowJo%2018.app/Contents/Resources/Java/images/test/fj_icon.png&quot;&gt;&lt;/IMG&gt;&lt;br/&gt;FlowJo, LLC&lt;/td&gt;&lt;td align=&quot;right&quot; valign=&quot;top&quot;&gt;Page &lt;PageNumber/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</PageSection>
+       <PageSection sectionName="footer" >&lt;table width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td align=&quot;left&quot;  valign=&quot;bottom&quot;&gt;&lt;LongDate/&gt;&lt;/td&gt;&lt;td align=&quot;right&quot; valign=&quot;bottom&quot;&gt;&lt;Version/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</PageSection>
+       <Iteration iterationType="SAMPLE"  iterationValue=""  iterationKeyword=""  discriminator=""  panelSize="1"  groupName="workspaceSelection" />
+     </Table>
+   </TableEditor>
+   <LayoutEditor title=""  current="Layout"  showGrid="0"  showPageBreaks="0"  showGuides="0"  showDebugOutput="0" >
+     <Layout name="Layout"  outputFile="file:/Users/Jack/Layout/"  color="#00ffffff"  isBatch="0"  showGrid="0"  showRulers="1"  showDebugOutput="0"  showGuides="0"  showPageBreaks="1"  scale="1" >
+       <PrintLayout flipPattern0="0"  rows="1"  columns="1"  padding="36"  header=""  footer=""  headerActive="0"  footerActive="0"  scalingMode="fj.print.scale.none"  scaling="1"  orientation="1"  width="612"  height="792"  imageableX="72"  imageableY="72"  imageableWidth="468"  imageableHeight="648" />
+       <PageSection sectionName="header" >&lt;table width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td align=&quot;left&quot; valign=&quot;top&quot;&gt;&amp;NBSP&amp;NBSP&amp;NBSP&amp;NBSP&lt;IMG SRC=&quot;file:/Users/Jack/Downloads/FlowJo%2018.app/Contents/Resources/Java/images/test/fj_icon.png&quot;&gt;&lt;/IMG&gt;&lt;br/&gt;FlowJo, LLC&lt;/td&gt;&lt;td align=&quot;right&quot; valign=&quot;top&quot;&gt;Page &lt;PageNumber/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</PageSection>
+       <PageSection sectionName="footer" >&lt;table width=&quot;100%&quot;&gt;&lt;tr&gt;&lt;td align=&quot;left&quot;  valign=&quot;bottom&quot;&gt;&lt;LongDate/&gt;&lt;/td&gt;&lt;td align=&quot;right&quot; valign=&quot;bottom&quot;&gt;&lt;Version/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</PageSection>
+       <Iteration iterationType="SAMPLE"  iterationValue="1"  iterationKeyword=""  discriminator=""  panelSize="1"  groupName="All Samples" />
+       <BatchSettings useCurrentGroup="1"  length="3"  name=""  order="ACROSS"  direction="COLUMNS"  append="0"  destination="toLayout"  separatePages="0"  launchApp="1"  header="0"  footer="0"  commandLineBatch="0" />
+       <FigList>
+         <ChartData x="141"  y="45"  width="0"  height="0"  lineWeight="Hairline"  fill="#ffffff"  stroke="#000000"  lineStyle="Solid"  gradientColor="#808080"  gradientStyle="le.gradientstyle.none"  enabled="1"  xScale="1"  yScale="1"  aspectRatioLock="0"  alpha="1"  figID="com.treestar.flowjo.charting.FigChartBox@5ea755f5#1442509673466"  rotation="0"  lock="0"  sizeLock="0"  contentLock="0"  wantsDrops="0"  dependents="1"  showSampleName="1"  showFullPath="1"  showFreq="0"  showCount="1"  showPopulationName="1"  showGraphTitle="0"  showMedians="0"  useShortName="1"  showKeyword="0"  keyword=""  showStatistic="0"  statistic=""  offsetHistograms="0"  offsetX="0"  offsetY="0"  flipH="0"  flipV="0"  showAdjunctHistograms="0"  scaleH="1"  scaleV="1"  panelIndex="-1"  z="0" >
+           <Graph smoothing="0"  backColor="#ffffff"  foreColor="#000000"  type="Pseudocolor"  fast="1" >
+             <Axis dimension="x"  name="FSC-A"  label=""  auto="auto" />
+             <Axis dimension="y"  name="SSC-A"  label=""  auto="auto" />
+             <GraphSettings level="5%"  smoothingHighResolution="1"  contourHighResolution="1"  histogramSmoothingCount="0"  graphResolution="256"  showOutliers="0"  drawLargeDots="0"  dotsToDraw="8000"  tint="le.chartfill.tinted.40"  lineWeight="le.lineweight.normal"  lineStyle="le.linestyle.solid" />
+             <GraphEnvironment showGrid="0"  showAxes="tnlTNL"  showGates="1"  showFreqOnPlots="1"  showGateNameOnPlots="1"  showMedians="0"  showUncomped="0"  addEventParam="0"  lastYAxisName="" >
+               <TextTraits font="SansSerif"  size="11"  name="Labels"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+               <TextTraits font="SansSerif"  size="11"  name="LayoutGates"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+               <TextTraits font="SansSerif"  size="9"  name="Numbers"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+               <TextTraits font="SansSerif"  size="9"  name="Legend"  style="plain"  color="#000000"  background="#00ffffff"  just="left" />
+               <WindowPosition x="0"  y="0"  width="0"  height="0"  displayed="0"  panelState="" />
+             </GraphEnvironment>
+           </Graph>
+           <Annotation lineWeight="NoLine"  fill="#00ffffff"  stroke="#808080"  lineStyle="Solid"  gradientColor="#808080"  gradientStyle="le.gradientstyle.none"  enabled="1"  xScale="1"  yScale="1"  aspectRatioLock="0"  alpha="1"  figID="com.treestar.flowjo.charting.FigChartAnnotation@1d696397#1442509673473"  rotation="0"  lock="0"  sizeLock="0"  contentLock="0"  wantsDrops="0"  autoFitContents="0"  autoMinimumSize="1"  padding="5,5,5,5" >
+             <Content>&amp;lt;font color=&amp;quot;#000000&amp;quot; style=&amp;quot;font-size:11pt;&amp;quot; face=&amp;quot;SansSerif&amp;quot;&amp;gt;&amp;#xA;&amp;lt;/font&amp;gt;&amp;#xA;    &amp;lt;p style=&amp;quot;margin-top:0; text-align:left;&amp;quot;&amp;gt;&amp;#xA;      &amp;lt;font color=&amp;quot;#000000&amp;quot; style=&amp;quot;font-size:11pt;&amp;quot; face=&amp;quot;SansSerif&amp;quot;&amp;gt;&amp;lt;input style=&amp;quot;font-weight:normal; font-style:; color:#000000; font-family:SansSerif;&amp;quot; value=&amp;quot;%3CAnno+name%3D%22fj.anno.samplename%22+%2F%3E&amp;quot; type=&amp;quot;fjml&amp;quot;&amp;gt;&amp;#xA;      &amp;#xA;&amp;lt;/font&amp;gt;    &amp;lt;/p&amp;gt;&amp;#xA;    &amp;lt;p style=&amp;quot;margin-top:0; text-align:left;&amp;quot;&amp;gt;&amp;#xA;      &amp;lt;font color=&amp;quot;#000000&amp;quot; style=&amp;quot;font-size:11pt;&amp;quot; face=&amp;quot;SansSerif&amp;quot;&amp;gt;&amp;lt;input style=&amp;quot;font-weight:normal; font-style:; color:#000000; font-family:SansSerif;&amp;quot; value=&amp;quot;%3CAnno+name%3D%22fj.anno.popname%22+%2F%3E&amp;quot; type=&amp;quot;fjml&amp;quot;&amp;gt;&amp;#xA;      &amp;#xA;&amp;lt;/font&amp;gt;    &amp;lt;/p&amp;gt;&amp;#xA;    &amp;lt;p style=&amp;quot;margin-top:0; text-align:left;&amp;quot;&amp;gt;&amp;#xA;      &amp;lt;font color=&amp;quot;#000000&amp;quot; style=&amp;quot;font-size:11pt;&amp;quot; face=&amp;quot;SansSerif&amp;quot;&amp;gt;&amp;lt;input style=&amp;quot;font-weight:normal; font-style:; color:#000000; font-family:SansSerif;&amp;quot; value=&amp;quot;%3CStatistic+name%3D%22Count%22++id%3D%22%22++ancestor%3D%22%22+%2F%3E&amp;quot; type=&amp;quot;fjml&amp;quot;&amp;gt;&amp;#xA;&amp;lt;/font&amp;gt;    &amp;lt;/p&amp;gt;&amp;#xA;</Content>
+             <WindowPosition x="0"  y="340"  width="147"  height="52"  displayed="1"  panelState="" />
+           </Annotation>
+           <Legend lineWeight="Hairline"  fill="#ffffff"  stroke="#000000"  lineStyle="Solid"  gradientColor="#808080"  gradientStyle="le.gradientstyle.none"  enabled="1"  xScale="1"  yScale="1"  aspectRatioLock="0"  alpha="1"  figID="com.treestar.flowjo.charting.legend.FigLegend@72095d96#1442509673473"  rotation="0"  lock="0"  sizeLock="0"  contentLock="0"  wantsDrops="0"  rows="3"  columns="4"  drawGrid="1"  autoFitContents="0"  showHeader="1" >
+             <RowSizes>
+               <Size index="0"  value="15" />
+               <Size index="1"  value="15" />
+               <Size index="2"  value="15" />
+             </RowSizes>
+             <ColSizes>
+               <Size index="0"  value="15" />
+               <Size index="1"  value="15" />
+               <Size index="2"  value="15" />
+               <Size index="3"  value="15" />
+             </ColSizes>
+             <WindowPosition x="280"  y="0"  width="60"  height="45"  displayed="0"  panelState="" />
+             <Columns>
+               <Anno name="fj.anno.samplename" />
+               <Anno name="fj.anno.popname" />
+               <Statistic name="Count"  id=""  ancestor="" />
+             </Columns>
+           </Legend>
+           <Ancestry lineWeight="Hairline"  fill="#ffffff"  stroke="#000000"  lineStyle="Solid"  gradientColor="#808080"  gradientStyle="le.gradientstyle.none"  enabled="1"  xScale="1"  yScale="1"  aspectRatioLock="0"  alpha="1"  figID="com.treestar.flowjo.charting.FigChartRow@7efa6ce0#1442509673470"  rotation="0"  lock="0"  sizeLock="0"  contentLock="0"  wantsDrops="0"  backgating="0"  horizontal="0"  backgatingLargeDots="0"  backgatingContours="0" >
+             <WindowPosition x="0"  y="0"  width="0"  height="1"  displayed="0"  panelState="" />
+           </Ancestry>
+           <Multigraph lineWeight="NoLine"  fill="#00ffffff"  stroke="#000000"  lineStyle="Solid"  gradientColor="#808080"  gradientStyle="le.gradientstyle.none"  enabled="1"  xScale="1"  yScale="1"  aspectRatioLock="1"  alpha="1"  figID="com.treestar.flowjo.charting.FigChartGrid@6b022740#1442509673472"  rotation="0"  lock="0"  sizeLock="0"  contentLock="0"  wantsDrops="0"  annoOffsetX="0"  annoOffsetY="0"  type="NONE"  rows="0"  columns="0" >
+             <WindowPosition x="0"  y="0"  width="0"  height="1"  displayed="0"  panelState="" />
+             <Parameters/>
+           </Multigraph>
+           <PopModelList>
+             <DataLayer path=""  panelValue="1"  discriminatorValue=""  sampleGMID="0"  sampleID="1" >
+               <LegendSpec color="#000000"  text=""  chartFill="le.chartfill.tinted.40"  lineWeight="Normal"  lineStyle="Solid"  control="0" />
+             </DataLayer>
+           </PopModelList>
+           <WindowPosition x="141"  y="45"  width="256"  height="256"  displayed="1"  panelState="" />
+         </ChartData>
+       </FigList>
+     </Layout>
+     <WindowPosition x="376"  y="23"  width="900"  height="600" />
+   </LayoutEditor>
+   <Scripts>
+     <Script lang="text/javascript"  name="New Script 		 " />
+   </Scripts>
+   <Exports/>
+   <SOPS/>
+   <experiment/>
+ </Workspace>
